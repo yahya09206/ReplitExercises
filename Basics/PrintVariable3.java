@@ -13,6 +13,7 @@ public class PrintVariable3 {
     	int num = in.nextInt();
    		double cost = in.nextDouble();
 
-   		System.out.println("num = " + num + " cost = " + cost);
+   		System.out.println("num= " + num);
+   		System.out.println("cost= " + cost);
 	}
 }
