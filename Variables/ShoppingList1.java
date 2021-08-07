@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /*
 In this assignment you will write a program to create a shopping list and prices.
 
@@ -12,7 +13,7 @@ You will use Scanner object and ask user to enter 3 items followed by its price 
 public class Main {
   public static void main(String[] args) {
     //WRITE YOUR CODE HERE:
-    
+    Scanner scan = new Scanner(System.in);
     
     
     
