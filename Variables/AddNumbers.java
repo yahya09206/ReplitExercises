@@ -20,5 +20,8 @@ public class AddNumbers {
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
+		int num1 = scan.next();
+		int num2 = scan.next();
+		int num3 = scan.next();
 	}
 }
