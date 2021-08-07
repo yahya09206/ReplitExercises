@@ -26,7 +26,7 @@ public class Main {
     System.out.println("Enter item 3 and its price: ");
     String item3 = scan.next();
     double price3 = scan.nextDouble();
-    
+    double totalPrice = price1 + price2 + price3;
     
     
   }
