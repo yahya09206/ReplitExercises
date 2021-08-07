@@ -10,7 +10,7 @@ You will use Scanner object and ask user to enter 3 items followed by its price 
 
 -Create a Scanner object named scan.
 */
-public class Main {
+public class ShoppingList1 {
   public static void main(String[] args) {
     //WRITE YOUR CODE HERE:
     Scanner scan = new Scanner(System.in);
@@ -30,9 +30,9 @@ public class Main {
     //close scanner
     scan.close();
     //output message
-    System.out.prinln("Item 1: " + item1 + " Price: " + price1 +
-                      "Item 2: " + item2 + " Price: " + price2 +
-                      "Item 3: " + item3 + " Price: " + price3);
+    System.out.println("Item 1: " + item1 + " Price: " + price1 +
+                      ", Item 2: " + item2 + " Price: " + price2 +
+                      ", Item 3: " + item3 + " Price: " + price3);
     System.out.println("Total price: " + totalPrice);
     
   }
