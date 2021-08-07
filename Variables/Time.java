@@ -15,7 +15,8 @@ public class Time {
 	public static void main(String[] args){
 		int hour;
 		int minute;
-		int minute;
+		int second;
 		String amOrPm;
+		System.out.print(hour + ":" + minute + ":" + second + " " + amOrPm);
 	}
 }
