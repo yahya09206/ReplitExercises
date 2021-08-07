@@ -14,6 +14,10 @@ public class Main {
   public static void main(String[] args) {
     //WRITE YOUR CODE HERE:
     Scanner scan = new Scanner(System.in);
+    //3 items
+    System.out.println("Enter item 1 and its price: ");
+    String item1 = scan.next();
+    double price1 = scan.nextDouble();
     
     
     
