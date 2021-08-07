@@ -13,6 +13,9 @@ Using the variables and concatenation, print values in the format mentioned abov
 */
 public class Time {
 	public static void main(String[] args){
-		
+		int hour;
+		int minute;
+		int minute;
+		String amOrPm;
 	}
 }
