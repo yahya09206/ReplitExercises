@@ -15,8 +15,10 @@ Flow:
 
 -Print "Sum of numbers: ValueOfSum"
 */
+import java.util.Scanner;
 public class AddNumbers {
 	public static void main(String[] args){
-		
+
+		Scanner scan = new Scanner(System.in);
 	}
 }
