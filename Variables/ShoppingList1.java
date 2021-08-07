@@ -29,7 +29,11 @@ public class Main {
     double totalPrice = price1 + price2 + price3;
     //close scanner
     scan.close();
-    
+    //output message
+    System.out.prinln("Item 1: " + item1 + " Price: " + price1 +
+                      "Item 2: " + item2 + " Price: " + price2 +
+                      "Item 3: " + item3 + " Price: " + price3);
+    System.out.println("Total price: " + totalPrice);
     
   }
 }
