@@ -27,17 +27,26 @@ public class PatientInformation {
 		String street = scan.nextLine();
 		System.out.println("Enter your city ");
 		String city = scan.next();
-		System.out.println("Enter your state")
+		System.out.println("Enter your state ");
 		String state = scan.next();
 
 		//numeric variables
-		int age = scan.nextInt();
+		System.out.println("Enter your zipcode ");
 		int zipCode = scan.nextInt();
-		double height = scan.nextDouble();
-		double weight = scan.nextDouble();
-		boolean isMarried = scan.nextBoolean();
+		System.out.println("Enter your work phone number ");
 		long workPhoneNumber = scan.nextLong();
+		System.out.println("Enter your personal phone number ");
 		long personalPhoneNumber = scan.nextLong();
+		System.out.println("Enter your age ");
+		int age = scan.nextInt();
+		System.out.println("Enter your height ");
+		double height = scan.nextDouble();
+		System.out.println("Enter your weight ");
+		double weight = scan.nextDouble();
+		System.out.println("Are your married? ");
+		boolean isMarried = scan.nextBoolean();
+		//close scanner
+		scan.close();
 
 		//Concatenations
 		String fullName = "Patient personal information: " + firstName + ", " + lastName;
