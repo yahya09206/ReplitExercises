@@ -5,6 +5,15 @@ import java.util.Scanner;
 public class SchoolGrades {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		
+
+		System.out.println("Welcome to the Grader!");
+		System.out.println("Please enter the subject name number 1 and score for this subject");
+		System.out.println("Please enter the subject name number 2 and score for this subject");
+		System.out.println("Please enter the subject name number 3 and score for this subject");
+		System.out.println("Please enter the subject name number 4 and score for this subject");
+		System.out.println("Please enter the subject name number 5 and score for this subject");
+
+
+
 	}
 }
