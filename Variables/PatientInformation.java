@@ -19,7 +19,10 @@ public class PatientInformation {
 		String city = scan.next();
 
 		//numeric variables
-		
+		int age = scan.nextInt();
+		int zipCode = scan.nextInt();
+		double height = scan.nextDouble();
+		double weight = scan.nextDouble();
 
 		//Concatenation
 		String address = street + ", " + city + ", " + state + " " + zipCode;
