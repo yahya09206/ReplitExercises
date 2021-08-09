@@ -8,51 +8,51 @@ Create a Scanner object named scan.
 import java.util.Scanner;
 public class PatientInformation {
 	public static void main(String[] args){
-		//Declare scanner object
+		 //Declare scanner object
 		Scanner scan = new Scanner(System.in);
 
 		//Welcome message
-		System.out.println("Welcome to the patient portal! ");
-		System.out.println("Please enter your personal information ");
+		System.out.println("Welcome to the patient portal!");
+		System.out.println("Please enter your personal information");
 
 
 		//String variables
-		System.out.println("Enter your first name ");
+		System.out.println("Enter your first name");
 		String firstName = scan.next();
-		System.out.println("Enter your last name ");
+		System.out.println("Enter your last name");
 		String lastName = scan.next();
-		System.out.println("Enter your email ");
+		System.out.println("Enter your email");
 		String email = scan.next();
-		scan.nextLine();
-		System.out.println("Enter your street ");
+		System.out.println("Enter your street");
+    	scan.nextLine();
 		String street = scan.nextLine();
-		System.out.println("Enter your city ");
+		System.out.println("Enter your city");
 		String city = scan.next();
-		System.out.println("Enter your state ");
+		System.out.println("Enter your state");
 		String state = scan.next();
 
 		//numeric variables
-		System.out.println("Enter your zipcode ");
+		System.out.println("Enter your zip code");
 		int zipCode = scan.nextInt();
-		System.out.println("Enter your work phone number ");
+		System.out.println("Enter your work phone number");
 		long workPhoneNumber = scan.nextLong();
-		System.out.println("Enter your personal phone number ");
+		System.out.println("Enter your personal phone number");
 		long personalPhoneNumber = scan.nextLong();
-		System.out.println("Enter your age ");
+		System.out.println("Enter your age");
 		int age = scan.nextInt();
-		System.out.println("Enter your height ");
+		System.out.println("Enter your height");
 		double height = scan.nextDouble();
-		System.out.println("Enter your weight ");
+		System.out.println("Enter your weight");
 		double weight = scan.nextDouble();
-		System.out.println("Are your married? ");
+		System.out.println("Are you married?");
 		boolean isMarried = scan.nextBoolean();
 		//close scanner
 		scan.close();
 
 		//Concatenations
-		String fullName = firstName + ", " + lastName;
+		String fullName = lastName + ", " + firstName;
 		String address = street + ", " + city + ", " + state + " " + zipCode;
-		String contacts = " work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber + ", " + "email:" + email;
+		String contacts = "work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber + ", email: " + email;
 
 		System.out.println("Patient personal information");
 	    System.out.println("Full name: " + fullName);
@@ -61,8 +61,6 @@ public class PatientInformation {
 	    System.out.println("Age: " + age);
 	    System.out.println("Height: " + height);
 	    System.out.println("Weight: " + weight + " pounds");
-	    System.out.println("Married?: " + isMarried);     
-
-		Patient personal information Full name: May, James Address: 7925 Jones Branch Dr, McLean, VA 22102 Contacts: work phone number - 7896542314, personal phone number - 2406542314, email: jamesmay@gmail.com Age: 35 Height: 5.1 Weight: 173.2 pounds Married?: true
+	    System.out.println("Married?: " + isMarried);
 	}
 }
