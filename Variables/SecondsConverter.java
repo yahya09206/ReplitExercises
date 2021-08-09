@@ -27,9 +27,10 @@ public class SecondsConverter {
 
 		System.out.println("Enter seconds:");
 		int inputSeconds = scan.nextInt();
-		int hours = scan.nextInt();
-		int minutes = scan.nextInt();
-		int seconds = scan.nextInt();
+		int hours = inputSeconds / 3600;
+		int minutes = (inputSeconds / 60) % 60;
+		int seconds = (inputSeconds % 3600) % 60;
+		
 
 
 	}
