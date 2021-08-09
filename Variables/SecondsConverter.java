@@ -20,8 +20,14 @@ Enter seconds:
 1 hours, 1 minutes, and 35 seconds
 */
 import java.util.Scanner;
+
 public class SecondsConverter {
 	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
 
+		int inputSeconds = scan.nextInt();
+		int hours = scan.nextInt();
+		int minutes = scan.nextInt();
+		int seconds = scan.nextInt();
 	}
 }
