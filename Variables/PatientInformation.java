@@ -8,7 +8,12 @@ Create a Scanner object named scan.
 import java.util.Scanner;
 public class PatientInformation {
 	public static void main(String[] args){
+		//Declare scanner object
 		Scanner scan = new Scanner(System.in);
+
+		//Welcome message
+		System.out.println("Welcome to the patient portal!");
+		System.out.println("Please enter your personal information");
 		//String variables
 		String firstName = scan.next();
 		String lastName = scan.next();
