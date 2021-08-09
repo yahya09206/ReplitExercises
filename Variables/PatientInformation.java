@@ -23,6 +23,9 @@ public class PatientInformation {
 		int zipCode = scan.nextInt();
 		double height = scan.nextDouble();
 		double weight = scan.nextDouble();
+		boolean isMarried = scan.nextBoolean();
+		long workPhoneNumber = scan.nextLong();
+		long personalPhoneNumber = scan.nextLong();
 
 		//Concatenation
 		String address = street + ", " + city + ", " + state + " " + zipCode;
