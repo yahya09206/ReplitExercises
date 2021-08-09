@@ -24,6 +24,9 @@ public class SchoolGrades {
 		int grade5 = scan.nextDoble();
 		double avg = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
 
+		//Summary
+		System.out.println("Summary: " + math + " - " + grade1 + ", " + biology + " - " + grade2 + ", " + english + " - " + grade3 + ", " + chemistry + " - " + grade4 + ", " + music + " - " + grade5);
+
 
 
 
