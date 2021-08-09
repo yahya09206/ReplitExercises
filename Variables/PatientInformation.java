@@ -23,6 +23,7 @@ public class PatientInformation {
 		String lastName = scan.next();
 		System.out.println("Enter your email ");
 		String email = scan.next();
+		scan.nextLine();
 		System.out.println("Enter your street ");
 		String street = scan.nextLine();
 		System.out.println("Enter your city ");
@@ -49,8 +50,19 @@ public class PatientInformation {
 		scan.close();
 
 		//Concatenations
-		String fullName = "Patient personal information: " + firstName + ", " + lastName;
-		String address = "Address: " + street + ", " + city + ", " + state + " " + zipCode;
-		String contacts = "Contacts: work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber ", " + "email:" + email;
+		String fullName = firstName + ", " + lastName;
+		String address = street + ", " + city + ", " + state + " " + zipCode;
+		String contacts = " work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber + ", " + "email:" + email;
+
+		System.out.println("Patient personal information");
+	    System.out.println("Full name: " + fullName);
+	    System.out.println("Address: " + address);
+	    System.out.println("Contacts: " + contacts);
+	    System.out.println("Age: " + age);
+	    System.out.println("Height: " + height);
+	    System.out.println("Weight: " + weight + " pounds");
+	    System.out.println("Married?: " + isMarried);     
+
+		Patient personal information Full name: May, James Address: 7925 Jones Branch Dr, McLean, VA 22102 Contacts: work phone number - 7896542314, personal phone number - 2406542314, email: jamesmay@gmail.com Age: 35 Height: 5.1 Weight: 173.2 pounds Married?: true
 	}
 }
