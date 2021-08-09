@@ -26,6 +26,9 @@ public class SchoolGrades {
 
 		//Summary
 		System.out.println("Summary: " + math + " - " + grade1 + ", " + biology + " - " + grade2 + ", " + english + " - " + grade3 + ", " + chemistry + " - " + grade4 + ", " + music + " - " + grade5);
+		System.out.println("Your average score is: " + avg);
+		System.out.println("Thank you for using grade\n" +
+							"Goodbye!");
 
 
 
