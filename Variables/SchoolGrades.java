@@ -8,20 +8,23 @@ public class SchoolGrades {
 
 		System.out.println("Welcome to the Grader!");
 		System.out.println("Please enter the subject name number 1 and score for this subject");
-		String subject1 = scan.next();
+		String math = scan.next();
 		int grade1 = scan.nextDoble();
 		System.out.println("Please enter the subject name number 2 and score for this subject");
 		String subject2 = scan.next();
-		int grade2 = scan.nextDoble();
+		int biology = scan.nextDoble();
 		System.out.println("Please enter the subject name number 3 and score for this subject");
-		String subject3 = scan.next();
+		String english = scan.next();
 		int grade3 = scan.nextDoble();
 		System.out.println("Please enter the subject name number 4 and score for this subject");
-		String subject4 = scan.next();
+		String chemistry = scan.next();
 		int grade4 = scan.nextDoble();
 		System.out.println("Please enter the subject name number 5 and score for this subject");
-		String subject5 = scan.next();
+		String music = scan.next();
 		int grade5 = scan.nextDoble();
+		double avg = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
+
+
 
 
 
