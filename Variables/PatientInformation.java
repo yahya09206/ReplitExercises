@@ -8,6 +8,7 @@ Create a Scanner object named scan.
 import java.util.Scanner;
 public class PatientInformation {
 	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
 		
 	}
 }
