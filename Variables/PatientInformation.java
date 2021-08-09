@@ -23,9 +23,12 @@ public class PatientInformation {
 		String lastName = scan.next();
 		System.out.println("Enter your email ");
 		String email = scan.next();
+		System.out.println("Enter your street ");
 		String street = scan.nextLine();
-		String state = scan.next();
+		System.out.println("Enter your city ");
 		String city = scan.next();
+		System.out.println("Enter your state")
+		String state = scan.next();
 
 		//numeric variables
 		int age = scan.nextInt();
@@ -36,7 +39,7 @@ public class PatientInformation {
 		long workPhoneNumber = scan.nextLong();
 		long personalPhoneNumber = scan.nextLong();
 
-		//Concatenation
+		//Concatenations
 		String fullName = "Patient personal information: " + firstName + ", " + lastName;
 		String address = "Address: " + street + ", " + city + ", " + state + " " + zipCode;
 		String contacts = "Contacts: work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber ", " + "email:" + email;
