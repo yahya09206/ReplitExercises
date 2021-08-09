@@ -5,6 +5,7 @@ Declare 2 int variables: age, zipcode Declare 2 double variables: height, weight
 
 Create a Scanner object named scan.
 */
+import java.util.Scanner;
 public class PatientInformation {
 	public static void main(String[] args){
 		
