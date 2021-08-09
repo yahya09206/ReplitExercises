@@ -30,8 +30,8 @@ public class SecondsConverter {
 		int hours = inputSeconds / 3600;
 		int minutes = (inputSeconds / 60) % 60;
 		int seconds = (inputSeconds % 3600) % 60;
-		
 
+		System.out.println(hours + " hours, " + minutes + " minutes, and " + seconds + " seconds");
 
 	}
 }
