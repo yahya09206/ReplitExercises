@@ -12,12 +12,16 @@ public class PatientInformation {
 		Scanner scan = new Scanner(System.in);
 
 		//Welcome message
-		System.out.println("Welcome to the patient portal!");
-		System.out.println("Please enter your personal information");
+		System.out.println("Welcome to the patient portal! ");
+		System.out.println("Please enter your personal information ");
+
+
 		//String variables
+		System.out.println("Enter your first name ");
 		String firstName = scan.next();
+		System.out.println("Enter your last name ");
 		String lastName = scan.next();
-		String fullName = firstName + lastName;
+		System.out.println("Enter your email ");
 		String email = scan.next();
 		String street = scan.nextLine();
 		String state = scan.next();
@@ -33,6 +37,8 @@ public class PatientInformation {
 		long personalPhoneNumber = scan.nextLong();
 
 		//Concatenation
-		String address = street + ", " + city + ", " + state + " " + zipCode;
+		String fullName = "Patient personal information: " + firstName + ", " + lastName;
+		String address = "Address: " + street + ", " + city + ", " + state + " " + zipCode;
+		String contacts = "Contacts: work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber ", " + "email:" + email;
 	}
 }
