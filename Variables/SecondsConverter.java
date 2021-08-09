@@ -25,9 +25,12 @@ public class SecondsConverter {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 
+		System.out.println("Enter seconds:");
 		int inputSeconds = scan.nextInt();
 		int hours = scan.nextInt();
 		int minutes = scan.nextInt();
 		int seconds = scan.nextInt();
+
+
 	}
 }
