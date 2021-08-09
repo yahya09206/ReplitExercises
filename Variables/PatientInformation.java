@@ -18,8 +18,8 @@ public class PatientInformation {
 		String state = scan.next();
 		String city = scan.next();
 
-		//
-
+		//numeric variables
+		
 
 		//Concatenation
 		String address = street + ", " + city + ", " + state + " " + zipCode;
