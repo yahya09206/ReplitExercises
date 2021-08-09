@@ -7,32 +7,27 @@ public class SchoolGrades {
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Welcome to the Grader!");
-		System.out.println("Please enter the subject name number 1 and score for this subject");
+		System.out.println("Please enter subject name number 1 and score for this subject");
 		String math = scan.next();
-		int grade1 = scan.nextDoble();
-		System.out.println("Please enter the subject name number 2 and score for this subject");
-		String subject2 = scan.next();
-		int biology = scan.nextDoble();
-		System.out.println("Please enter the subject name number 3 and score for this subject");
+		double grade1 = scan.nextDouble();
+		System.out.println("Please enter subject name number 2 and score for this subject");
+		String biology = scan.next();
+		double grade2 = scan.nextDouble();
+		System.out.println("Please enter subject name number 3 and score for this subject");
 		String english = scan.next();
-		int grade3 = scan.nextDoble();
-		System.out.println("Please enter the subject name number 4 and score for this subject");
+		double grade3 = scan.nextDouble();
+		System.out.println("Please enter subject name number 4 and score for this subject");
 		String chemistry = scan.next();
-		int grade4 = scan.nextDoble();
-		System.out.println("Please enter the subject name number 5 and score for this subject");
+		double grade4 = scan.nextDouble();
+		System.out.println("Please enter subject name number 5 and score for this subject");
 		String music = scan.next();
-		int grade5 = scan.nextDoble();
+		double grade5 = scan.nextDouble();
 		double avg = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
 
 		//Summary
 		System.out.println("Summary: " + math + " - " + grade1 + ", " + biology + " - " + grade2 + ", " + english + " - " + grade3 + ", " + chemistry + " - " + grade4 + ", " + music + " - " + grade5);
 		System.out.println("Your average score is: " + avg);
-		System.out.println("Thank you for using grade\n" +
+		System.out.println("Thank you for using Grader!\n" +
 							"Goodbye!");
-
-
-
-
-
 	}
 }
