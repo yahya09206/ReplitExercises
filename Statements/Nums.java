@@ -14,7 +14,7 @@ public class Nums {
 
     	if(num1 > num2){
     		System.out.println(num1 + " is greater than " + num2);
-    	}else if(num1 == num2)P{
+    	}else if(num1 == num2){
     		System.out.println(num1 + " and " + num2 + " are equal");
     	}else {
     		System.out.println(num2 + " is greater than " + num1);
