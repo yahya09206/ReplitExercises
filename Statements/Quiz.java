@@ -21,7 +21,7 @@ public class Quiz {
     	}else if(a.equals("a") || a.equals("c")){
     		System.out.println(a + " is wrong");
     	}else {
-    		System.out.println("is not a valid answer");
+    		System.out.println(a + " is not a valid answer");
     	}
 	}
 }
