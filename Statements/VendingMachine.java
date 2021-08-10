@@ -10,11 +10,12 @@ public class VendingMachine {
 
 		Scanner scan = new Scanner(System.in);
 		int cents = scan.nextInt();
+		System.out.println("Enter cents:");
 
 		if(cents >= 0 && cents <= 100){
 			int quarters = cents / 25;
 			int dimes = (cents % 25) / 10;
-			int nickel = (cents % 25) % 10 / 5;
+			int nickels = (cents % 25) % 10 / 5;
 			int pennies = ((cents % 25) % 10) % 5;
 			System.out.println("Your change is " + quarters + " quarters, " + dimes + " dimes, " + nickels + " nickels, and " + pennies + " pennies");
 		}else {
