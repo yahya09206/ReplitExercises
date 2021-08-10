@@ -15,6 +15,13 @@ public class Quiz {
     
     	String a = s.nextLine();
 
-    	
+
+    	if(a.equals("b")){
+    		System.out.println(a + " is correct");
+    	}else if(a.equals("a") || a.equals("c")){
+    		System.out.println(a + " is wrong");
+    	}else {
+    		System.out.println("is not a valid answer");
+    	}
 	}
 }
