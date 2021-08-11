@@ -36,7 +36,26 @@ public class AndroidVersions {
 				System.out.println("Ice Cream Sandwich");
 				break;
 			case 4.1:
-				
+				System.out.println("Jelly Bean");
+				break;
+			case 4.4:
+				System.out.println("KitKat");
+				break;
+			case 5.0:
+				System.out.println("Lollipop");
+				break;
+			case 8.0:
+				System.out.println("Oreo");
+				break;
+
+
+
+
+
+
+
+
+
 		}
 	}
 }
