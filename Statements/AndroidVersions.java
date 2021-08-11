@@ -21,7 +21,7 @@ public class AndroidVersions {
 			System.out.println("Eclair");
 		}else if(version == 2.2){
 			System.out.println("Froyo");
-		}else if(version == 2.2){
+		}else if(version == 2.3){
 			System.out.println("Gingerbread");
 		}else if(version == 3.1){
 			System.out.println("Honeycomb");
