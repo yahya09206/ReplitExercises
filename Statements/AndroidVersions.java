@@ -21,19 +21,15 @@ public class AndroidVersions {
 			System.out.println("Eclair");
 		}else if(version == 2.2){
 			System.out.println("Froyo");
+		}else if(version == 2.2){
+			System.out.println("Gingerbread");
+		}else if(version == 3.1){
+			System.out.println("Honeycomb");
+		}else if(version == 4.0){
+			System.out.println("Ice Cream Sandwich");
+		}else if(version == 4.1){
+			System.out.println("Jelly Bean");
 		}
-			case 2.3:
-				System.out.println("Gingerbread");
-				break;
-			case 3.1:
-				System.out.println("Honeycomb");
-				break;
-			case 4.0:
-				System.out.println("Ice Cream Sandwich");
-				break;
-			case 4.1:
-				System.out.println("Jelly Bean");
-				break;
 			case 4.4:
 				System.out.println("KitKat");
 				break;
