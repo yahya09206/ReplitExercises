@@ -26,5 +26,7 @@ public class Citizens {
 		System.out.println("Enter current count for seniorCitizens and nonSeniorCitizens:");
 		int seniorCitizens = scan.nextInt();
 		int nonSenior = scan.nextInt();
+		System.out.println("What is new citizen's age?");
+		int newAge = scan.nextDouble();
 	}
 }
