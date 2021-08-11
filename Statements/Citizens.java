@@ -23,5 +23,7 @@ import java.util.Scanner;
 public class Citizens {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		int seniorCitizens = scan.nextInt();
+		int nonSenior = scan.nextInt();
 	}
 }
