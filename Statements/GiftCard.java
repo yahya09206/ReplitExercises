@@ -11,5 +11,8 @@ import java.util.Scanner;
 public class GiftCard {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+
+		int giftCard = 100;
+		String input = scan.next();
 	}
 }
