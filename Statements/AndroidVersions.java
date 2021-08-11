@@ -12,6 +12,11 @@ public class AndroidVersions {
 		Scanner scan = new Scanner(System.in);
 		double num = scan.nextDouble();
 
-		
+		//use switch statement
+		switch(num){
+			case 1.5:
+				System.out.println("Cupcake");
+				break;
+		}
 	}
 }
