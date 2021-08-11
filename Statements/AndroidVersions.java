@@ -29,22 +29,16 @@ public class AndroidVersions {
 			System.out.println("Ice Cream Sandwich");
 		}else if(version == 4.1){
 			System.out.println("Jelly Bean");
-		}
-			case 4.4:
-				System.out.println("KitKat");
-				break;
-			case 5.0:
-				System.out.println("Lollipop");
-				break;
-			case 8.0:
-				System.out.println("Oreo");
-				break;
-			case 9.0:
-				System.out.println("Pie");
-				break;
-			default:
-				System.out.println("Sorry, I don't know this version!");
-
+		}else if(version == 4.4){
+			System.out.println("KitKat");
+		}else if(version == 5.0){
+			System.out.println("Lollipop");	
+		}else if(version == 8.0){
+			System.out.println("Oreo");
+		}else if(version == 9.0){
+			System.out.println("Pie");
+		}else {
+			System.out.println("Sorry, I don't know this version!");
 		}
 	}
 }
