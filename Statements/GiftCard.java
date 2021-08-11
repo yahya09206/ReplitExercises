@@ -13,7 +13,7 @@ public class GiftCard {
 		Scanner scan = new Scanner(System.in);
 
 		int balance = 100;
-		String input = scan.next();
+		String input = scan.nextLine();
 
 		//nested if else to determine price and if valid
 		if (input.equals("Blanket")) {
@@ -26,6 +26,30 @@ public class GiftCard {
 				"your new balance is " + balance);
 		}else if (input.equals("Hat")){
 			balance -= 25;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+		}else if (input.equals("Headphones")){
+			balance -= 30;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+		}else if (input.equals("Laptop")){
+			System.out.println("Sorry, not enough funds on your gift card!");
+		}else if (input.equals("Pants")){
+			balance -= 50;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+		}else if (input.equals("Pillow")){
+			balance -= 40;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+		}else if (input.equals("Smartphone")){
+			System.out.println("Sorry, not enough funds on your gift card!");
+		}else if (input.equals("Socks")){
+			balance -= 5;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+		}else if (input.equals("USB cable")){
+			balance -= 10;
 			System.out.println("Thank you for your purchase!\n " +
 				"your new balance is " + balance);
 		}
