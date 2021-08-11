@@ -12,20 +12,16 @@ public class AndroidVersions {
 		Scanner scan = new Scanner(System.in);
 		double version = scan.nextDouble();
 
-		//use switch statement
-		switch(version){
-			case 1.5:
-				System.out.println("Cupcake");
-				break;
-			case 1.6:
-				System.out.println("Donut");
-				break;
-			case 2.1:
-				System.out.println("Eclair");
-				break;
-			case 2.2:
-				System.out.println("Froyo");
-				break;
+		//use if statement
+		if(version == 1.5){
+			System.out.println("Cupcake");
+		}else if(version == 1.6){
+			System.out.println("Donut");
+		}else if(version == 2.1){
+			System.out.println("Eclair");
+		}else if(version == 2.2){
+			System.out.println("Froyo");
+		}
 			case 2.3:
 				System.out.println("Gingerbread");
 				break;
