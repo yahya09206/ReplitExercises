@@ -36,5 +36,8 @@ public class Citizens {
 			Systme.out.println("Non-Senior Citizen");
 			nonSenior++;
 		}
+
+		System.out.println("New seniorCitizens count " + seniorCitizens);
+		System.out.println("New nonSeniorCitizens count " + nonSenior);
 	}
 }
