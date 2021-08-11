@@ -20,12 +20,14 @@ public class GiftCard {
 			balance -= 60;
 			System.out.println("Thank you for your purchase!\n " +
 				"your new balance is " + balance);
-			break;
 		}else if (input.equals("Charger")){
 			balance -= 15;
 			System.out.println("Thank you for your purchase!\n " +
 				"your new balance is " + balance);
-			break;
+		}else if (input.equals("Hat")){
+			balance -= 25;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
 		}
 	}
 }
