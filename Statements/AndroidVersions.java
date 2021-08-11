@@ -9,6 +9,9 @@ Versions 1.5 - Cupcake 1.6 - Donut 2.1 - Eclair 2.2 - Froyo 2.3 - Gingerbread 3.
 import java.util.Scanner;
 public class AndroidVersions {
 	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+		double num = scan.nextDouble();
+
 		
 	}
 }
