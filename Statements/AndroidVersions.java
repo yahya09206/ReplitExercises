@@ -10,10 +10,10 @@ import java.util.Scanner;
 public class AndroidVersions {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		double double = scan.nextDouble();
+		double version = scan.nextDouble();
 
 		//use switch statement
-		switch(double){
+		switch(version){
 			case 1.5:
 				System.out.println("Cupcake");
 				break;
@@ -50,14 +50,8 @@ public class AndroidVersions {
 			case 9.0:
 				System.out.println("Pie");
 				break;
-
-
-
-
-
-
-
-
+			default:
+				System.out.println("Sorry, I don't know this version!");
 
 		}
 	}
