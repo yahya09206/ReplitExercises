@@ -17,13 +17,15 @@ public class GiftCard {
 
 		//nested if else to determine price and if valid
 		if (input.equals("Blanket")) {
-			if(balance < 60){
-				System.out.println("Sorry, not enough funds on your gift card!");
-			}else{
-				balance -= 60;
-				System.out.println("Thank you for your purchase!\n " +
-					"your new balance is " + balance);
-			}
+			balance -= 60;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+			break;
+		}else if (input.equals("Charger")){
+			balance -= 15;
+			System.out.println("Thank you for your purchase!\n " +
+				"your new balance is " + balance);
+			break;
 		}
 	}
 }
