@@ -23,6 +23,7 @@ import java.util.Scanner;
 public class Citizens {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter current count for seniorCitizens and nonSeniorCitizens:");
 		int seniorCitizens = scan.nextInt();
 		int nonSenior = scan.nextInt();
 	}
