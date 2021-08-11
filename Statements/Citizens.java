@@ -19,3 +19,9 @@ Last print another message:
 
 "New nonSeniorCitizens count ValueOfVariable"
 */
+import java.util.Scanner;
+public class Citizens {
+	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+	}
+}
