@@ -14,5 +14,10 @@ public class GiftCard {
 
 		int giftCard = 100;
 		String input = scan.next();
+
+		//nested if else to determine price and if valid
+		if (input.equals("Blanket")) {
+			
+		}
 	}
 }
