@@ -12,12 +12,18 @@ public class GiftCard {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 
-		int giftCard = 100;
+		int balance = 100;
 		String input = scan.next();
 
 		//nested if else to determine price and if valid
 		if (input.equals("Blanket")) {
-			
+			if(balance < 60){
+				System.out.println("Sorry, not enough funds on your gift card!");
+			}else{
+				balance -= 60;
+				System.out.println("Thank you for your purchase!\n " +
+					"your new balance is " + balance);
+			}
 		}
 	}
 }
