@@ -28,5 +28,13 @@ public class Citizens {
 		int nonSenior = scan.nextInt();
 		System.out.println("What is new citizen's age?");
 		int newAge = scan.nextDouble();
+
+		if(newAge >= 65){
+			System.out.println("Senior Citizen");
+			seniorCitizens++;
+		}else {
+			Systme.out.println("Non-Senior Citizen");
+			nonSenior++;
+		}
 	}
 }
