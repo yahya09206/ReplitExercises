@@ -19,39 +19,41 @@ public class GiftCard {
 		if (input.equals("Blanket")) {
 			balance -= 60;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("Charger")){
 			balance -= 15;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("Hat")){
 			balance -= 25;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("Headphones")){
 			balance -= 30;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("Laptop")){
 			System.out.println("Sorry, not enough funds on your gift card!");
 		}else if (input.equals("Pants")){
 			balance -= 50;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("Pillow")){
 			balance -= 40;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("Smartphone")){
 			System.out.println("Sorry, not enough funds on your gift card!");
 		}else if (input.equals("Socks")){
 			balance -= 5;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
 		}else if (input.equals("USB cable")){
 			balance -= 10;
 			System.out.println("Thank you for your purchase!\n " +
-				"your new balance is " + balance);
+				"your current balance is: " + balance);
+		}else {
+			System.out.println("Invalid Item");
 		}
 	}
 }
