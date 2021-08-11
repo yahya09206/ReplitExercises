@@ -10,13 +10,33 @@ import java.util.Scanner;
 public class AndroidVersions {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		double num = scan.nextDouble();
+		double double = scan.nextDouble();
 
 		//use switch statement
-		switch(num){
+		switch(double){
 			case 1.5:
 				System.out.println("Cupcake");
 				break;
+			case 1.6:
+				System.out.println("Donut");
+				break;
+			case 2.1:
+				System.out.println("Eclair");
+				break;
+			case 2.2:
+				System.out.println("Froyo");
+				break;
+			case 2.3:
+				System.out.println("Gingerbread");
+				break;
+			case 3.1:
+				System.out.println("Honeycomb");
+				break;
+			case 4.0:
+				System.out.println("Ice Cream Sandwich");
+				break;
+			case 4.1:
+				
 		}
 	}
 }
