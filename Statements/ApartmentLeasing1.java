@@ -20,7 +20,12 @@ public class ApartmentLeasing1 {
 								"\nStarting price: 1100");
 		}else if(numOfRooms == 2){
 			System.out.println("Two Bedroom Selected" +
+								"\nStarting price: 1850");
+		}else if(numOfRooms == 3){
+			System.out.println("Three Bedroom Selected" + 
 								"\nStarting price: 2550");
+		}else {
+			System.out.println("No such Bedrooms available");
 		}
 	}
 }
