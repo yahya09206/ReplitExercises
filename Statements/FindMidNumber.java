@@ -17,5 +17,13 @@ public class FindMidNumber {
 		int secondNumber = scan.nextInt();
 		System.out.println("Enter third number:");
 		int thirdNumber = scan.nextInt();
+
+		if (firstNumber < secondNumber && secondNumber < thirdNumber) {
+			System.out.println("Medium value is: " + secondNumber);
+		}else if(thirdNumber > firstNumber && thirdNumber < secondNumber){
+			System.out.println("Medium value is:" + thirdNumber);
+		}else {
+			System.out.println("Medium value is: " + firstNumber);
+		}
 	}
 }
