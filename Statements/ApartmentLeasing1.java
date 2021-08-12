@@ -11,5 +11,8 @@ import java.util.Scanner;
 public class ApartmentLeasing1 {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Welcome to Cybertek Apartments! " + 
+							"\nNumber of bedrooms you are interested:");
+		int numOfRooms = scan.nextInt();
 	}
 }
