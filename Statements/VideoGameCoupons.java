@@ -12,5 +12,8 @@ import java.util.Scanner;
 public class VideoGameCoupons {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+
+		int candyBar = 10;
+		int gumBall = 3;
 	}
 }
