@@ -18,6 +18,9 @@ public class ApartmentLeasing1 {
 		if (numOfRooms == 1) {
 			System.out.println("One Bedroom Selected" + 
 								"\nStarting price: 1100");
+		}else if(numOfRooms == 2){
+			System.out.println("Two Bedroom Selected" +
+								"\nStarting price: 2550");
 		}
 	}
 }
