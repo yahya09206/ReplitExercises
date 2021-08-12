@@ -14,5 +14,10 @@ public class ApartmentLeasing1 {
 		System.out.println("Welcome to Cybertek Apartments! " + 
 							"\nNumber of bedrooms you are interested:");
 		int numOfRooms = scan.nextInt();
+
+		if (numOfRooms == 1) {
+			System.out.println("One Bedroom Selected" + 
+								"\nStarting price: 1100");
+		}
 	}
 }
