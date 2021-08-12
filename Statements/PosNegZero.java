@@ -17,7 +17,7 @@ public class PosNegZero {
     	}else if(num < 0){
     		System.out.println("negative");
     	}else {
-    		System.out.println("Zero");
+    		System.out.println("zero");
     	}
 	}
 }
