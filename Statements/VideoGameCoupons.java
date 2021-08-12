@@ -12,8 +12,13 @@ import java.util.Scanner;
 public class VideoGameCoupons {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		int coupons = scan.nextInt();
 
-		int candyBar = 10;
-		int gumBall = 3;
+		int candyBar = coupons / 10;
+		int gumBall = (coupons % 10) % 3;
+
+		if(coupons >= 3){
+			System.out.println("Number of Candies: " + candyBar + "\nNumber of Gumballs: " + gumBall);
+		}
 	}
 }
