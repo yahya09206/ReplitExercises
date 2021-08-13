@@ -22,7 +22,7 @@ public class VehicleRecall {
 		}else if (carYear == 2004 || carYear == 2005 || carYear == 2006){
 			System.out.println("Your vehicle needs to be recalled!");
 		}else if (carYear == 2015 || carYear == 2016 || carYear == 2017){
-			System.out.println("Your vehicle needs to be recalled");
+			System.out.println("Your vehicle needs to be recalled!");
 		}else {
 			System.out.println("Your vehicle is fine, enjoy!");
 		}
