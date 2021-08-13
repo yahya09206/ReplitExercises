@@ -22,10 +22,10 @@ public class Black {
 		int player = s.nextInt();
 
 		//Write your code here:
-    	if (player > house) {
-			System.out.println("player win");
-		}else if(house + player > 21){
+    	if (player > 21) {
 			System.out.println("player bust");
+		}else if(player > house ){
+			System.out.println("player win");
 		}else if(house > player){
 			System.out.println("player loss ");
 		}else {
