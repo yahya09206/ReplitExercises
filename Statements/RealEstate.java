@@ -44,8 +44,8 @@ public class RealEstate {
 		System.out.println("Market report has been generated.");
 		System.out.println("Your estimate market price is: " + propertyPrice);
 
-
-
-
+		if (houseType.equalsIgnoreCase("condo")) {
+			propertyPrice += 50000;
+		}
 	}
 }
