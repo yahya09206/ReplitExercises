@@ -1,5 +1,5 @@
 /*
-
+wow did i fix this
 */
 import java.util.Scanner;
 public class RealEstate {
