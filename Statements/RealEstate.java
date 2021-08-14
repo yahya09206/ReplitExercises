@@ -10,14 +10,17 @@ public class RealEstate {
 		float metroAccessibility, schoolScore, highwayAccessibility;
 		boolean backyard, smoking, garage;
 		String houseType;
-		Scanner scan = new Scanner(System.in);
-		System.out.println("*****************************************");
+		
 		System.out.println("* Welcome to the RealEstate calculator! *");
 		System.out.println("Enter your property type:");
 		houseType = scan.nextLine();
 
 		System.out.println("How many bedrooms do you have?");
 		numberOfBedrooms = scan.nextInt();
+
+
+
+
 
 
 	}
