@@ -39,13 +39,18 @@ public class RealEstate {
 		smoking = scan.nextBoolean();
 
 
-
+		if (houseType.equalsIgnoreCase("condo")) {
+			propertyPrice += 50000;
+			if (numberOfBedrooms == 1) {
+				propertyPrice += 30000;
+			}else if(numberOfBedrooms == 2){
+				propertyPrice += 60000;
+			}else if(numberOfBedrooms == 3){
+				propertyPrice += 90000;
+			}
+		}
 		//print message
 		System.out.println("Market report has been generated.");
 		System.out.println("Your estimate market price is: " + propertyPrice);
-
-		if (houseType.equalsIgnoreCase("condo")) {
-			propertyPrice += 50000;
-		}
 	}
 }
