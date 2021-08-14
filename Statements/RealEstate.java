@@ -26,6 +26,12 @@ public class RealEstate {
 		System.out.println("How many spots?")
 		garageSpots = scan.nextInt();
 
+		System.out.println("How close is metro station?");
+		metroAccessibility = scan.nextFloat();
+
+		System.out.println("How close is highway?");
+		highwayAccessibility = scan.nextFloat();
+
 
 
 
