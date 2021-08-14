@@ -56,14 +56,14 @@ public class RealEstate {
 
 				}
 			}
-			if (metroAccessibility <= 1) {
+			if (metroAccessibility < 1) {
 				propertyPrice += 10000;
-			}else if (metroAccessibility <= 3){
+			}else if (metroAccessibility > 1 && metroAccessibility <= 3){
 				propertyPrice += 5000;
 			}
-			if (highwayAccessibility <= 1) {
+			if (highwayAccessibility < 1) {
 				propertyPrice += 15000;
-			}else if (highwayAccessibility <= 5)
+			}else if (highwayAccessibility >= 1 && metroAccessibility <= 5)
 				propertyPrice += 
 		}
 		//print message
