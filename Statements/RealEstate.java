@@ -41,19 +41,28 @@ public class RealEstate {
 
 
 		if (houseType.equalsIgnoreCase("condo")) {
-			propertyPrice += 50000;
 			if(backyard.equalsIgnoreCase("true")){
 				System.out.println("Backyard is not available for condo!");
-			}else {
 				propertyPrice = propertyPrice;
+			}else {
+				propertyPrice += 50000;
 			}
 			if (garage.equalsIgnoreCase("true")) {
 				if (garageSpots > 10) {
 					System.out.println("Pardon, it's not public parking!");
 					propertyPrice = propertyPrice;
 				}else {
-					garageSpots *= 20000;
+					propertyPrice += garageSpots * 20000;
+
 				}
+			}
+			if (metroAccessibility <= 1) {
+				propertyPrice += 10000;
+			}else if (metroAccessibility <= 3){
+				propertyPrice += 5000;
+			}
+			if (highwayAccessibility) {
+				
 			}
 
 		}
