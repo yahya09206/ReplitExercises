@@ -32,6 +32,18 @@ public class RealEstate {
 		System.out.println("How close is highway?");
 		highwayAccessibility = scan.nextFloat();
 
+		System.out.println("What's the rating of nearest school?");
+		schoolScore = scan.nextFloat();
+
+		System.out.println("Does any of your family members smoke?");
+		smoking = scan.nextBoolean();
+
+
+
+		//print message
+		System.out.println("Market report has been generated.");
+		System.out.println("Your estimate market price is: " + propertyPrice);
+
 
 
 
