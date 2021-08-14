@@ -13,6 +13,9 @@ public class RealEstate {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("*****************************************");
 		System.out.println("* Welcome to the RealEstate calculator! *");
-		System.out.println("*****************************************");
+		System.out.println("Enter your property type:");
+		houseType = scan.nextLine();
+
+
 	}
 }
