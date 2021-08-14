@@ -17,6 +17,7 @@ public class RealEstate {
 
 		System.out.println("How many bedrooms do you have?");
 		numberOfBedrooms = scan.nextInt();
+		numberOfBedrooms *= 30000;
 
 		System.out.println("Do you have a backyard?");
 		backyard = scan.nextBoolean();
@@ -41,13 +42,20 @@ public class RealEstate {
 
 		if (houseType.equalsIgnoreCase("condo")) {
 			propertyPrice += 50000;
-			if (numberOfBedrooms == 1) {
-				propertyPrice += 30000;
-			}else if(numberOfBedrooms == 2){
-				propertyPrice += 60000;
-			}else if(numberOfBedrooms == 3){
-				propertyPrice += 90000;
+			if(backyard.equalsIgnoreCase("true")){
+				System.out.println("Backyard is not available for condo!");
+			}else {
+				propertyPrice = propertyPrice;
 			}
+			if (garage.equalsIgnoreCase("true")) {
+				if (garageSpots > 10) {
+					System.out.println("Pardon, it's not public parking!");
+					propertyPrice = propertyPrice;
+				}else {
+					garageSpots *= 20000;
+				}
+			}
+
 		}
 		//print message
 		System.out.println("Market report has been generated.");
