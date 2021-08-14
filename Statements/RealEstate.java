@@ -16,6 +16,9 @@ public class RealEstate {
 		System.out.println("Enter your property type:");
 		houseType = scan.nextLine();
 
+		System.out.println("How many bedrooms do you have?");
+		numberOfBedrooms = scan.nextInt();
+
 
 	}
 }
