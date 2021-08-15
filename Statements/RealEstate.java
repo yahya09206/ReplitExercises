@@ -79,7 +79,11 @@ public class RealEstate {
 			}
 			//School score
 			if (schoolScore <= 10 && schoolScore >= 8) {
-				
+				propertyPrice += 45000;
+			}else if (schoolScore <= 8 && schoolScore >= 4) {
+				propertyPrice += 20000;
+			}else {
+				propertyPrice += 5000;
 			}
 		}
 		//print message
