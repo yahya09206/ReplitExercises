@@ -24,7 +24,7 @@ public class RealEstate {
 
 		System.out.println("Do you have garage?");
 		garage = nextBoolean();
-		System.out.println("How many spots?")
+		System.out.println("How many spots?");
 		garageSpots = scan.nextInt();
 
 		System.out.println("How close is metro station?");
@@ -40,15 +40,15 @@ public class RealEstate {
 		smoking = scan.nextBoolean();
 
 		//Condo
-		if (houseType.equalsIgnoreCase("condo")) {
-			if(backyard.equalsIgnoreCase("true")){
+		if (houseType == "condo") {
+			if(backyard == "true"){
 				System.out.println("Backyard is not available for condo!");
 				propertyPrice = propertyPrice;
 			}else {
 				propertyPrice += 50000;
 			}
 			//Garage
-			if (garage.equalsIgnoreCase("true")) {
+			if (garage == "true") {
 				if (garageSpots > 10) {
 					System.out.println("Pardon, it's not public parking!");
 					propertyPrice = propertyPrice;
@@ -86,7 +86,7 @@ public class RealEstate {
 				propertyPrice += 5000;
 			}
 			//Family smokes
-			if (smoking.equalsIgnoreCase("true")) {
+			if (smoking == "true") {
 				propertyPrice += 5000;
 			}
 		}
