@@ -77,6 +77,10 @@ public class RealEstate {
 			}else {
 				propertyPrice = propertyPrice;
 			}
+			//School score
+			if (schoolScore <= 10 && schoolScore >= 8) {
+				
+			}
 		}
 		//print message
 		System.out.println("Market report has been generated.");
