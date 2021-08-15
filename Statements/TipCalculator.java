@@ -7,3 +7,9 @@ The program should display the following information based on the user input:
 
 Split or No split (Yes or No) Number of people entered: (number) (each person = & in output) Check amount: (number) Service Quality: (String) Total to pay: Total tip: Total per person: Tip per person:
 */
+import java.util.Scanner;
+public class TipCalculator {
+	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+	}
+}
