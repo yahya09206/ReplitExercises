@@ -39,7 +39,7 @@ public class RealEstate {
 		System.out.println("Does any of your family members smoke?");
 		smoking = scan.nextBoolean();
 
-
+		//Condo
 		if (houseType.equalsIgnoreCase("condo")) {
 			if(backyard.equalsIgnoreCase("true")){
 				System.out.println("Backyard is not available for condo!");
@@ -47,6 +47,7 @@ public class RealEstate {
 			}else {
 				propertyPrice += 50000;
 			}
+			//Garage
 			if (garage.equalsIgnoreCase("true")) {
 				if (garageSpots > 10) {
 					System.out.println("Pardon, it's not public parking!");
@@ -55,18 +56,26 @@ public class RealEstate {
 					propertyPrice += garageSpots * 20000;
 
 				}
+			}else {
+				propertyPrice = propertyPrice;
 			}
+			//Metro
 			if (metroAccessibility < 1) {
 				propertyPrice += 10000;
 			}else if (metroAccessibility > 1 && metroAccessibility <= 3){
 				propertyPrice += 5000;
+			}else {
+				propertyPrice = propertyPrice;
 			}
+			//Highway
 			if (highwayAccessibility < 1) {
 				propertyPrice += 15000;
 			}else if (highwayAccessibility >= 1 && highwayAccessibility <= 5){
 				propertyPrice += 8000;
 			}else if(highwayAccessibility >= 5 && highwayAccessibility <= 20){
 				propertyPrice += 4000;
+			}else {
+				propertyPrice = propertyPrice;
 			}
 		}
 		//print message
