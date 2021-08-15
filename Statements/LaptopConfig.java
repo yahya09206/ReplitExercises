@@ -27,7 +27,7 @@ import java.util.Scanner;
 public class LaptopConfig {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		int raM, memorySize;
+		int ram, memorySize;
 		double screenSize = 0.0, price = 0.0;
 		String cpU = "", storageType, screenRes;
 
@@ -42,7 +42,18 @@ public class LaptopConfig {
 				break;
 			case 17.3:
 				price += 400;
+			default:
+				System.out.println("Invalid CPU type!");
 		}
+		System.out.println("Select RAM size:");
+        ram = scan.nextInt();
+        if (ram > 0) {
+            price += (ram / 4) * 50;
+        } else {
+            System.out.println("Invalid ram size!");
+        }
+
+
 
 	}
 }
