@@ -85,6 +85,10 @@ public class RealEstate {
 			}else {
 				propertyPrice += 5000;
 			}
+			//Family smokes
+			if (smoking.equalsIgnoreCase("true")) {
+				propertyPrice += 5000;
+			}
 		}
 		//print message
 		System.out.println("Market report has been generated.");
