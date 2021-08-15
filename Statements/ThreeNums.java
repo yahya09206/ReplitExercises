@@ -6,3 +6,8 @@ if n2 is biggest output: "n2 is bigger"
 if n3 is biggest output: "n3 is bigger"
 */
 import java.util.Scanner;
+public class ThreeNums {
+	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+	}
+}
