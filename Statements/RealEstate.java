@@ -63,8 +63,11 @@ public class RealEstate {
 			}
 			if (highwayAccessibility < 1) {
 				propertyPrice += 15000;
-			}else if (highwayAccessibility >= 1 && metroAccessibility <= 5)
+			}else if (highwayAccessibility >= 1 && highwayAccessibility <= 5){
 				propertyPrice += 8000;
+			}else if(highwayAccessibility >= 5 && highwayAccessibility <= 20){
+				propertyPrice += 4000;
+			}
 		}
 		//print message
 		System.out.println("Market report has been generated.");
