@@ -19,6 +19,19 @@ public class HttpStatusCodes {
 			case 202:
 				System.out.println("Accepted");
 				break;
+			case 301:
+				System.out.println("Moved Permanently");
+				break;
+			case 303:
+				System.out.println("See Other");
+				break;
+			case 304:
+				System.out.println("Not Modified");
+				break;
+			case 307:
+				System.out.println("Temporary Redirect");
+				break;
+			case
 
 		}
 	}
