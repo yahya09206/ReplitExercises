@@ -6,8 +6,20 @@ import java.util.Scanner;
 public class HttpStatusCodes {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter status code:");
 		int status= scan.nextInt();
 
-		
+		switch(status){
+			case 200:
+				System.out.println("OK");
+				break;
+			case 201:
+				System.out.println("Created");
+				break;
+			case 202:
+				System.out.println("Accepted");
+				break;
+
+		}
 	}
 }
