@@ -25,7 +25,7 @@ public class TipCalculator {
         System.out.println("Number of people entered: "+r);
         double totaltip=0;
         if (Quality.equalsIgnoreCase("Poor")){
-            totaltip=checkAmount*0.05;
+            totaltip = checkAmount*0.05;
         }else if (Quality.equalsIgnoreCase("Fair")){
             totaltip=checkAmount*0.10;
         }else if (Quality.equalsIgnoreCase("Good")){
@@ -36,9 +36,9 @@ public class TipCalculator {
             totaltip=checkAmount*0.25;
         }
 
-        System.out.println("Total to pay: "+(checkAmount+totaltip));
-        System.out.println("Total tip: "+totaltip);
-        System.out.println("Total per person: "+(checkAmount+totaltip)/people);
-        System.out.println("Tip per person: "+totaltip/people);
+        System.out.println("Total to pay: "+ (checkAmount+totaltip));
+        System.out.println("Total tip: " +totaltip);
+        System.out.println("Total per person: " +(checkAmount+totaltip)/people);
+        System.out.println("Tip per person: " +totaltip/people);
 	}
 }
