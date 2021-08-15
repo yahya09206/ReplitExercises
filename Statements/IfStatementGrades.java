@@ -10,5 +10,12 @@ import java.util.Scanner;
 public class IfStatementGrades {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		int grade = scan.nextInt();
+
+		if (grade > 90) {
+			System.out.println("excellent");
+		}else if (grade > 70 && grade < 90){
+			System.out.println("good");
+		}
 	}
 }
