@@ -31,5 +31,18 @@ public class LaptopConfig {
 		double screenSize = 0.0, price = 0.0;
 		String cpU = "", storageType, screenRes;
 
+		System.out.println("Select screen size:");
+		screenSize = scan.nextDouble();
+		switch(screenSize) {
+			case 13.3:
+				price += 200;
+				break;
+			case 15.0:
+				price += 300;
+				break;
+			case 17.3:
+				price += 400;
+		}
+
 	}
 }
