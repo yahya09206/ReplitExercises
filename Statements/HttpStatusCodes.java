@@ -31,7 +31,39 @@ public class HttpStatusCodes {
 			case 307:
 				System.out.println("Temporary Redirect");
 				break;
-			case
+			case 400:
+				System.out.println("Bad Request");
+				break;
+			case 401:
+				System.out.println("Unauthorized");
+				break;
+			case 403:
+				System.out.println("Forbidden");
+				break;
+			case 404:
+				System.out.println("Not found");
+				break;
+			case 410:
+				System.out.println("Gone");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		}
 	}
