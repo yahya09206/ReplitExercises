@@ -45,6 +45,12 @@ public class HttpStatusCodes {
 				break;
 			case 410:
 				System.out.println("Gone");
+				break;
+			case 500:
+				Systme.out.println("Internal Server Error");
+				break;
+			case 503:
+				System.out.println("Service Unavailable");
 
 
 
