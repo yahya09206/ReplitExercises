@@ -41,7 +41,7 @@ public class HttpStatusCodes {
 				System.out.println("Forbidden");
 				break;
 			case 404:
-				System.out.println("Not found");
+				System.out.println("Not Found");
 				break;
 			case 410:
 				System.out.println("Gone");
