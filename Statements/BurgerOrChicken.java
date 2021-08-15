@@ -18,7 +18,7 @@ public class BurgerOrChicken {
 		if (order.equals("burger") || order.equals("chicken")) {
 			System.out.println(10.0);
 		}else if(order.equals("soda")){
-			System.out.println(2.0)
+			System.out.println(2.0);
 		}else {
 			System.out.println(3.5);
 		}
