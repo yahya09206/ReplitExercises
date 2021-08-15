@@ -29,8 +29,9 @@ public class LaptopConfig {
 		Scanner scan = new Scanner(System.in);
 		int ram, memorySize;
 		double screenSize = 0.0, price = 0.0;
-		String cpU = "", storageType, screenRes;
+		String cpu = "", storageType, screenRes;
 
+		//Screen size
 		System.out.println("Select screen size:");
 		screenSize = scan.nextDouble();
 		switch(screenSize) {
@@ -43,8 +44,25 @@ public class LaptopConfig {
 			case 17.3:
 				price += 400;
 			default:
+				System.out.println("Invalid screen size!");
+		}
+		//CPU Type
+		System.out.println("Select CPU type:");
+		cpu = scan.next();
+		switch(cpu){
+			case "i3":
+				price += 150;
+				break;
+			case "i5":
+				price += 250;
+				break;
+			case "i7":
+				price += 350;
+				break;
+			default:
 				System.out.println("Invalid CPU type!");
 		}
+		//RAM
 		System.out.println("Select RAM size:");
         ram = scan.nextInt();
         if (ram > 0) {
