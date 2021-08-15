@@ -51,26 +51,10 @@ public class HttpStatusCodes {
 				break;
 			case 503:
 				System.out.println("Service Unavailable");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+				break;
+			default:
+				System.out.println("Invalid status code!");
+				break;
 		}
 	}
 }
