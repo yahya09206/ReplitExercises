@@ -60,6 +60,13 @@ public class RealEstate {
 			propertyPrice += 5000;
 		}
 
+		//Prompt for highway access
+		System.out.println("How close is highway?");
+		highwayAccessibility = scan.nextFloat();
+		if(highwayAccessibility <= 1){
+			propertyPrice += 15000;
+		}
+
 
 
 		//print message
