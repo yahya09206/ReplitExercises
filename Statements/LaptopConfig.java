@@ -71,7 +71,14 @@ public class LaptopConfig {
             System.out.println("Invalid ram size!");
         }
 
-
+        //Storage Type
+        System.out.println("Select storage type:");
+        String storageType = scan.next();
+        System.out.println("Select memory size:");
+        String memorySize = scan.next()
+        if(storageType.equalsIgnoreCase("HDD")){
+        	price += (storagae / 500) * 50;
+        }
 
 	}
 }
