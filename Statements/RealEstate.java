@@ -23,6 +23,12 @@ public class RealEstate {
 		}else {
 			System.out.println("Invalid property type!");
 		}
+		//Prompt for how many bedrooms
+		System.out.println("How many bedrooms do you have?");
+		numberOfBedrooms = scan.nextInt();
+		if (numberOfBedrooms > 0) {
+			propertyPrice += numberOfBedrooms * 30000;
+		}
 	
 
 
