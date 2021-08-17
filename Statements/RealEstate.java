@@ -29,6 +29,16 @@ public class RealEstate {
 		if (numberOfBedrooms > 0) {
 			propertyPrice += numberOfBedrooms * 30000;
 		}
+		//Prompt for backyard
+		System.out.println("Do you have a backyard");
+		backyard = scan.nextBoolean();
+		if (backyard == true) {
+			if (houseType.equalsIgnoreCase("condo")) {
+				System.out.println("Backyard is not available for condo!");
+			}else {
+				propertyPrice += 5000;
+			}
+		}
 	
 
 
