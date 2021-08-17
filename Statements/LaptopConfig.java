@@ -34,18 +34,17 @@ public class LaptopConfig {
 		//Screen size
 		System.out.println("Select screen size:");
 		screenSize = scan.nextDouble();
-		switch(screenSize) {
-			case 13.3:
-				price += 200;
-				break;
-			case 15.0:
-				price += 300;
-				break;
-			case 17.3:
-				price += 400;
-			default:
-				System.out.println("Invalid screen size!");
-		}
+		System.out.println("Select screen size:");
+        screenSize = scan.nextDouble();
+        if (screenSize == 13.3) {
+            price += 200;
+        } else if (screenSize == 15.0) {
+            price += 300;
+        } else if (screenSize == 17.3) {
+            price += 400;
+        } else {
+            System.out.println("Invalid screen size!");
+        }
 		//CPU Type
 		System.out.println("Select CPU type:");
 		cpu = scan.next();
@@ -75,7 +74,7 @@ public class LaptopConfig {
         System.out.println("Select storage type:");
         storageType = scan.next();
         System.out.println("Select memory size:");
-        memorySize = scan.next()
+        memorySize = scan.next();
         if(storageType.equalsIgnoreCase("HDD") && memorySize > 0){
         	price += (memorySize) / 500 * 50;
         }else if(storageType.equalsIgnoreCase("SSD") && memorySize > 0){
