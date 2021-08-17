@@ -65,6 +65,21 @@ public class RealEstate {
 		highwayAccessibility = scan.nextFloat();
 		if(highwayAccessibility <= 1){
 			propertyPrice += 15000;
+		}else if(highwayAccessibility >= 1 && highwayAccessibility <= 5){
+			propertyPrice += 8000;
+		}else if (highwayAccessibility >= 5 && highwayAccessibility <=20) {
+			propertyPrice += 4000;
+		}
+
+		//Prompt for school rating
+		system.out.println("What's the rating of nearest school?");
+		schoolScore = scan.nextFloat();
+		if (schoolScore <= 10 && schoolScore >= 8) {
+			propertyPrice += 45000;
+		}else if (schoolScore <= 8 && schoolScore >= 4) {
+			propertyPrice += 20000;
+		}else {
+			propertyPrice += 5000;
 		}
 
 
