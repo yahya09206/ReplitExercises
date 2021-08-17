@@ -59,7 +59,6 @@ public class RealEstate {
 		}else if(metroAccessibility >= 1 && metroAccessibility <= 3){
 			propertyPrice += 5000;
 		}
-
 		//Prompt for highway access
 		System.out.println("How close is highway?");
 		highwayAccessibility = scan.nextFloat();
@@ -70,7 +69,6 @@ public class RealEstate {
 		}else if (highwayAccessibility >= 5 && highwayAccessibility <=20) {
 			propertyPrice += 4000;
 		}
-
 		//Prompt for school rating
 		system.out.println("What's the rating of nearest school?");
 		schoolScore = scan.nextFloat();
@@ -81,6 +79,13 @@ public class RealEstate {
 		}else {
 			propertyPrice += 5000;
 		}
+		//Prompt for smokers
+		System.out.println("Do any of your family members smoke?");
+		smoking = scan.nextBoolean;
+		if (smoking == true) {
+			propertyPrice += 5000;
+		}
+
 
 
 
