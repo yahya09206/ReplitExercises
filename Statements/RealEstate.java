@@ -39,6 +39,18 @@ public class RealEstate {
 				propertyPrice += 5000;
 			}
 		}
+		//Prompt for garage
+		System.out.println("Do you have garage?");
+		garage = scan.nextBoolean();
+		System.out.println("How many spots?");
+		garageSpots = scan.nextInt();
+		if (garage == true) {
+			if(garageSpots > 10){
+				System.out.println("Pardon, it's not public parking!")
+			}else {
+				propertyPrice += garageSpots * 20000;
+			}
+		}
 	
 
 
