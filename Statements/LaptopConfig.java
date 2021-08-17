@@ -76,8 +76,10 @@ public class LaptopConfig {
         String storageType = scan.next();
         System.out.println("Select memory size:");
         String memorySize = scan.next()
-        if(storageType.equalsIgnoreCase("HDD")){
-        	price += (storagae / 500) * 50;
+        if(storageType.equalsIgnoreCase("HDD") && memorySize > 0){
+        	price += (memorySize) / 500 * 50;
+        }else if(storageType.equalsIgnoreCase("SSD") && memorySize > 0){
+        	price += (memorySize) / 500 * 100;
         }
 
 	}
