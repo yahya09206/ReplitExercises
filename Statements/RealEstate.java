@@ -30,7 +30,7 @@ public class RealEstate {
 			propertyPrice += numberOfBedrooms * 30000;
 		}
 		//Prompt for backyard
-		System.out.println("Do you have a backyard");
+		System.out.println("Do you have a backyard?");
 		backyard = scan.nextBoolean();
 		if (backyard == true) {
 			if (houseType.equalsIgnoreCase("condo")) {
@@ -42,55 +42,51 @@ public class RealEstate {
 		//Prompt for garage
 		System.out.println("Do you have garage?");
 		garage = scan.nextBoolean();
-		System.out.println("How many spots?");
-		garageSpots = scan.nextInt();
 		if (garage == true) {
-			if(garageSpots > 10){
-				System.out.println("Pardon, it's not public parking!")
-			}else {
+			System.out.println("How many spots?");
+			garageSpots = scan.nextInt();
+			if(garageSpots <= 10 && garageSpots > 0){
 				propertyPrice += garageSpots * 20000;
+			}else {
+				System.out.println("Pardon, it's a not public parking!");
 			}
 		}
 		//Prompt for metro
 		System.out.println("How close is metro station?");
 		metroAccessibility = scan.nextFloat();
-		if (metroAccessibility <= 1) {
+		if (metroAccessibility > 0 && metroAccessibility <= 1) {
 			propertyPrice += 10000;
-		}else if(metroAccessibility >= 1 && metroAccessibility <= 3){
+		}else if(metroAccessibility <= 3){
 			propertyPrice += 5000;
 		}
 		//Prompt for highway access
 		System.out.println("How close is highway?");
 		highwayAccessibility = scan.nextFloat();
-		if(highwayAccessibility <= 1){
+		if(highwayAccessibility > 0 && highwayAccessibility <= 1){
 			propertyPrice += 15000;
-		}else if(highwayAccessibility >= 1 && highwayAccessibility <= 5){
+		}else if(highwayAccessibility <= 5){
 			propertyPrice += 8000;
-		}else if (highwayAccessibility >= 5 && highwayAccessibility <=20) {
+		}else if (highwayAccessibility <= 20) {
 			propertyPrice += 4000;
 		}
 		//Prompt for school rating
-		system.out.println("What's the rating of nearest school?");
+		System.out.println("What's the rating of nearest school?");
 		schoolScore = scan.nextFloat();
 		if (schoolScore <= 10 && schoolScore >= 8) {
 			propertyPrice += 45000;
-		}else if (schoolScore <= 8 && schoolScore >= 4) {
+		}else if (schoolScore >= 4) {
 			propertyPrice += 20000;
 		}else {
 			propertyPrice += 5000;
 		}
 		//Prompt for smokers
-		System.out.println("Do any of your family members smoke?");
-		smoking = scan.nextBoolean;
+		System.out.println("Does any of your family members smoke?");
+		smoking = scan.nextBoolean();
 		if (smoking == true) {
-			propertyPrice += 5000;
+			propertyPrice -= 5000;
 		}
-
-
-
-
 		//print message
 		System.out.println("Market report has been generated.");
-		System.out.println("Your estimate market price is: " + propertyPrice);
+		System.out.println("Your estimate market price is: " + propertyPrice + "$");
 	}
 }
