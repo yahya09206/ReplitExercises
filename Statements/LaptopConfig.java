@@ -80,7 +80,11 @@ public class LaptopConfig {
         	price += (memorySize) / 500 * 50;
         }else if(storageType.equalsIgnoreCase("SSD") && memorySize > 0){
         	price += (memorySize) / 500 * 100;
+        }else {
+        	System.out.println("Invalid memory type or size!");
         }
+
+        
 
 	}
 }
