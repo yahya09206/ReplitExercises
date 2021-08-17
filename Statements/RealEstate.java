@@ -14,8 +14,19 @@ public class RealEstate {
 		System.out.println("* Welcome to the RealEstate calculator! *");
 		System.out.println("Enter your property type:");
 		houseType = scan.nextLine();
+		if (houseType.equalsIgnoreCase("Condo")) {
+			propertyPrice += 50000;
+		}else if (houseType.equalsIgnoreCase("Townhouse")) {
+			propertyPrice += 75000;
+		}else if (houseType.equalsIgnoreCase("Single Family Home")){
+			propertyPrice += 95000;
+		}else {
+			System.out.println("Invalid property type!");
+		}
+	
 
-		
+
+
 		//print message
 		System.out.println("Market report has been generated.");
 		System.out.println("Your estimate market price is: " + propertyPrice);
