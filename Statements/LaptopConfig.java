@@ -33,8 +33,6 @@ public class LaptopConfig {
 
 		//Screen size
 		System.out.println("Select screen size:");
-		screenSize = scan.nextDouble();
-		System.out.println("Select screen size:");
         screenSize = scan.nextDouble();
         if (screenSize == 13.3) {
             price += 200;
@@ -74,7 +72,7 @@ public class LaptopConfig {
         System.out.println("Select storage type:");
         storageType = scan.next();
         System.out.println("Select memory size:");
-        memorySize = scan.next();
+        memorySize = scan.nextInt();
         if(storageType.equalsIgnoreCase("HDD") && memorySize > 0){
         	price += (memorySize) / 500 * 50;
         }else if(storageType.equalsIgnoreCase("SSD") && memorySize > 0){
@@ -85,7 +83,7 @@ public class LaptopConfig {
 
         //Screen Res
         System.out.println("Enter screen resolution");
-        screenRes = screenRes.next();
+        screenRes = scan.next();
         if(screenRes.equalsIgnoreCase("fullhd")){
         	price += 100;
         }else if(screenRes.equalsIgnoreCase("4k")){
