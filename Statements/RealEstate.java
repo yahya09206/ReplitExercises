@@ -51,7 +51,14 @@ public class RealEstate {
 				propertyPrice += garageSpots * 20000;
 			}
 		}
-	
+		//Prompt for metro
+		System.out.println("How close is metro station?");
+		metroAccessibility = scan.nextFloat();
+		if (metroAccessibility <= 1) {
+			propertyPrice += 10000;
+		}else if(metroAccessibility >= 1 && metroAccessibility <= 3){
+			propertyPrice += 5000;
+		}
 
 
 
