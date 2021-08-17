@@ -94,6 +94,6 @@ public class LaptopConfig {
         }else {
         	System.out.println("Invalid screen size!");
         }
-
+        System.out.println("Laptop price is: $" + price);
 	}
 }
