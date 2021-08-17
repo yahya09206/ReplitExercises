@@ -73,9 +73,9 @@ public class LaptopConfig {
 
         //Storage Type
         System.out.println("Select storage type:");
-        String storageType = scan.next();
+        storageType = scan.next();
         System.out.println("Select memory size:");
-        String memorySize = scan.next()
+        memorySize = scan.next()
         if(storageType.equalsIgnoreCase("HDD") && memorySize > 0){
         	price += (memorySize) / 500 * 50;
         }else if(storageType.equalsIgnoreCase("SSD") && memorySize > 0){
@@ -84,7 +84,16 @@ public class LaptopConfig {
         	System.out.println("Invalid memory type or size!");
         }
 
-        
+        //Screen Res
+        System.out.println("Enter screen resolution");
+        screenRes = screenRes.next();
+        if(screenRes.equalsIgnoreCase("fullhd")){
+        	price += 100;
+        }else if(screenRes.equalsIgnoreCase("4k")){
+        	price += 200;
+        }else {
+        	System.out.println("Invalid screen size!");
+        }
 
 	}
 }
