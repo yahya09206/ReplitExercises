@@ -12,5 +12,9 @@ public class MiddleOne {
 		Scanner scan = new Scanner(System.in);
 		String word = scan.next();
 
+		if (word.length() >= 3 && word.length() % 2 != 0) {
+			System.out.println(word.charAt(word.length()-1 / 2));
+		}
+
 	}
 }
