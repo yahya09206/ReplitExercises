@@ -21,6 +21,8 @@ public class SwitchChar {
 			case 'n':
 				System.out.println("Thank you anyway for your consideration");
 				break;
+			case 'h':
+				System.out.println("Sorry, no help is currently avaialable");
 			default:
 				System.out.println("Invalid entry, please try again!");
 		}
