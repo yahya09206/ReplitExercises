@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calendar {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter month number");
+		System.out.println("Enter month number:");
      	int monthNum = scan.nextInt();
 
 
