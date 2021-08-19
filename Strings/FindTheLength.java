@@ -9,5 +9,7 @@ public class FindTheLength {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter the text:");
 		String text = scan.next();
+
+		System.out.println(text.length() - 1);
 	}
 }
