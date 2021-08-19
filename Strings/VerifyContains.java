@@ -13,10 +13,9 @@ public class VerifyContain {
     	boolean result = false;
 
     	if (sentence.contains(word)) {
-    		result = true;
+    		System.out.println(true);
     	}else {
-    		result = false;
+    		System.out.println(false);
     	}
-    	System.out.println(result);
 	}
 }
