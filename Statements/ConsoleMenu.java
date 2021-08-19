@@ -21,13 +21,13 @@ public class ConsoleMenu {
 	    int choice = s.nextInt();
 
 	    if (choice == 1) {
-	    	System.out.println("User selected 1");
+	    	System.out.println("user selected 1");
 	    }
 	    if (choice == 2) {
-	    	System.out.println("User selected 2");
+	    	System.out.println("user selected 2");
 	    }
 	    if (choice == 2) {
-	    	System.out.println("User selected 3");
+	    	System.out.println("user selected 3");
 	    }
 	}
 }
