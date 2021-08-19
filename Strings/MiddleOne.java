@@ -19,6 +19,8 @@ public class MiddleOne {
 		}else if((word.length() >= 4) && (word.length() % 2 == 0)){
 			int midEven = word.length() / 2;
 			System.out.println("" + word.charAt(midEven - 1) + word.charAt(midEven));
+		}else if(word.length() == 2){
+			System.out.println(word + word);
 		}
 
 	}
