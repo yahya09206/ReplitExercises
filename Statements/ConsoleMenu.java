@@ -5,3 +5,11 @@ This is done using separate if statements(without else) or branched if statement
 
 Uur console menu has 3 items called "options"
 */
+import java.util.Scanner;
+
+public class ConsoleMenu {
+	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+		
+	}
+}
