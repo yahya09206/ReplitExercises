@@ -19,5 +19,15 @@ public class ConsoleMenu {
 	    System.out.println("---------------");
 	    
 	    int choice = s.nextInt();
+
+	    if (choice == 1) {
+	    	System.out.println("User selected 1");
+	    }
+	    if (choice == 2) {
+	    	System.out.println("User selected 2");
+	    }
+	    if (choice == 2) {
+	    	System.out.println("User selected 3");
+	    }
 	}
 }
