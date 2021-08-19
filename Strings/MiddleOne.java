@@ -12,12 +12,13 @@ public class MiddleOne {
 		Scanner scan = new Scanner(System.in);
 		String word = scan.next();
 
-		if (word.length() - 1 >= 3 && word.length() - 1 % 2 != 0) {
-			System.out.println(word.charAt(word.length()-1 / 2));
-		}else if(word.length() -1 == 1){
+		if (word.length() >= 3 && word.length() % 2 != 0) {
+			System.out.println(word.charAt(word.length() / 2));
+		}else if(word.length() == 1){
 			System.out.println(word + word + word);
-		}else if((word.length() - 1 >= 4) && (word.length() - 1 % 2 != 0)){
-
+		}else if((word.length() >= 4) && (word.length() % 2 == 0)){
+			int midEven = word.length() / 2;
+			System.out.println("" + word.charAt(midEven - 1) + word.charAt(midEven));
 		}
 
 	}
