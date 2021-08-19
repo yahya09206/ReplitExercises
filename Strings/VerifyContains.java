@@ -5,6 +5,18 @@ import java.util.Scanner;
 
 public class VerifyContain {
 	public static void main(String[] args){
+
 		Scanner scan = new Scanner(System.in);
+
+		String word = scan.nextLine();
+    	String sentence = scan.nextLine();
+    	boolean result = false;
+
+    	if (sentence.contains(word)) {
+    		result = true;
+    	}else {
+    		result = false;
+    	}
+    	System.out.println(result);
 	}
 }
