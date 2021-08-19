@@ -1,0 +1,3 @@
+/*
+Write a program that will verify if the sentence contains word. Print out the result as a boolean value.
+*/
