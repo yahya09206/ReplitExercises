@@ -10,7 +10,7 @@ public class FindAUser {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter full name:");
-		String name = scan.nextLine().equalsIgnoreCase();
+		String name = scan.nextLine();
 
 		if (name.equalsIgnoreCase("Max Payne") || name.equalsIgnoreCase("Alan Wake")) {
 			System.out.println("User found!");
