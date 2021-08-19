@@ -10,6 +10,6 @@ public class FindTheLength {
 		System.out.println("Please enter the text:");
 		String text = scan.next();
 
-		System.out.println(text.length() - 1);
+		System.out.println("Length is: " + (text.length()));
 	}
 }
