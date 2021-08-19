@@ -1,0 +1,3 @@
+/*
+Write a program that will print out the first character of the word.
+*/
