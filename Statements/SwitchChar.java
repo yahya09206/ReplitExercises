@@ -12,7 +12,7 @@ public class SwitchChar {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter command:");
-		Char response = scan.nextChar();
+		char response = scan.nextChar();
 
 		switch(response){
 			case 'y':
@@ -22,7 +22,7 @@ public class SwitchChar {
 				System.out.println("Thank you anyway for your consideration");
 				break;
 			case 'h':
-				System.out.println("Sorry, no help is currently avaialable");
+				System.out.println("Sorry, no help is currently available");
 			default:
 				System.out.println("Invalid entry, please try again!");
 		}
