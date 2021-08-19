@@ -7,8 +7,9 @@ if response is h, the message Sorry, no help is currently available is printed
 for any other value of response, the message "Invalid entry, please try again!" is printed
 Example:
 */
+import java.util.Scanner;
 public class SwitchChar {
 	public static void main(String[] args){
-		
+		Scanner scan = new Scanner(System.in);
 	}
 }
