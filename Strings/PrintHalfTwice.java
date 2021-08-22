@@ -1,0 +1,3 @@
+/*
+Write a program that will print out first half of the word twice.
+*/
