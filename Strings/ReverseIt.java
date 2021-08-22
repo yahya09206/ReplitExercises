@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class ReverseIt {
 	public static void main(String[] args){
 
-		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);	
+		String word = scan.next();
+
+		if (word.length() > 5 && word.length() < 5) {
+			System.out.println("Too short!");
+		}else {
+			
+		}
 	}
 }
