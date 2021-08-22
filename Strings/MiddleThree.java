@@ -9,7 +9,9 @@ public class MiddleThree {
 		String word = scan.next();
 
 		if(word.length() % 2 != 0 && word.length() > 5){
-			
+
+		}else {
+			System.out.println("invalid");
 		}
 
 	}
