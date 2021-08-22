@@ -7,6 +7,9 @@ public class StringNoEnd {
 
 		Scanner scan = new Scanner(System.in);
 		String txt = s.next();
-		System.out.println(txt.length() - 1);
+		int word = txt.length() - 1;
+    	String result = txt.substring(0, word);
+    	//your code here
+    	System.out.println(result);
 	}
 }
