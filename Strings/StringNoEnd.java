@@ -1,0 +1,3 @@
+/*
+Given a String txt print the value without the last letter
+*/
