@@ -12,5 +12,7 @@ public class Merge {
 		Scanner scan = new Scanner(System.in);
 		String word1 = scan.next();
     	String word2 = scan.next();
+
+    	if(word1.length() == 3 && word2.length() == 3)
 	}
 }
