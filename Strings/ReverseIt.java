@@ -8,9 +8,12 @@ public class ReverseIt {
 		Scanner scan = new Scanner(System.in);	
 		String word = scan.next();
 
-		if (word.length() > 5 && word.length() < 5) {
+		if (word.length() > 5) {
+			System.out.println("Too long!");
+		}else if(word.length() < 5){
 			System.out.println("Too short!");
-		}else {
+		}
+		else {
 			System.out.println(word.substring(4) + word.substring(3,4) + word.substring(2,3) + word.substring(1,2) + word.substring(0,1));
 		}
 	}
