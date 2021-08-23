@@ -8,6 +8,8 @@ public class Alejandro1 {
 		Scanner scan = new Scanner(System.in);
 		String a = scan.nextLine();
 
-		
+		if (a.equalsIgnoreCase("alejandro")) {
+			System.out.println("read");
+		}
 	}
 }
