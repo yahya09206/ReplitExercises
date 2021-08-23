@@ -9,7 +9,7 @@ public class Email1 {
 		//String email = scan.next();
 		String email = "seattle_washington@gmail.com";
 		String firstHalf = email.substring(0,email.indexOf("_"));
-		String secondHalf = 
+		String secondHalf = email.substring(email.indexOf("_"), email.indexOf("@"));
 
 		System.out.println(email.substring(0,email.indexOf("_")))
 
