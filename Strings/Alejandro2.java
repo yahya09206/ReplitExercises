@@ -7,6 +7,8 @@ public class Alejandro2 {
 		Scanner scan = new Scanner(System.in);
 		String a = scan.nextLine();
 
-		
+		if (a.contains("alejandro") && a.contains("project")) {
+			System.out.println("read");
+		}
 	}
 }
