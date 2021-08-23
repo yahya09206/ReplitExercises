@@ -11,7 +11,9 @@ public class Email1 {
 		String firstHalf = email.substring(0,email.indexOf("_"));
 		String secondHalf = email.substring((email.indexOf("_") + 1), email.indexOf("@"));
 
-		System.out.println(secondHalf + "_" + firstHalf + "@gmail.com");
+		if (!email.contains("_")) {
+			System.out.println(email);
+		}
 
 	}
 }
