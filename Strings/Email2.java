@@ -6,6 +6,10 @@ public class Email2 {
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
-		String email = scan.next();
+		//String email = scan.next();
+		String email = "seattle_washington@gmail.com";
+		String firstName = email.substring(0, email.indexOf("_"));
+
+		System.out.println(firstName);
 	}
 }
