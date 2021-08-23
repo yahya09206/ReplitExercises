@@ -9,6 +9,8 @@ public class Alejandro2 {
 
 		if (a.contains("alejandro") && a.contains("project")) {
 			System.out.println("read");
+		}else {
+			System.out.println("don't read");
 		}
 	}
 }
