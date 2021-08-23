@@ -4,6 +4,10 @@ Alejandro has many emails and only has time to read the emails that refer to him
 import java.util.Scanner;
 public class Alejandro1 {
 	public static void main(String[] args){
+
 		Scanner scan = new Scanner(System.in);
+		String a = scan.nextLine();
+
+		
 	}
 }
