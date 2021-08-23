@@ -12,6 +12,6 @@ public class Email2 {
 		String lastName = email.substring(email.indexOf("_") + 1, email.indexOf("@"));
 
 		System.out.println(firstName.toUpperCase().charAt(0) + email.substring(1, email.indexOf("_")));
-		System.out.println(lastName.toUpperCase().charAt(indexOf("_") + 1));
+		System.out.println(lastName.toUpperCase().charAt(0) + email.substring(email.indexOf("_") + 2, email.indexOf("@")));
 	}
 }
