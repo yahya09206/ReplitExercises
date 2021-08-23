@@ -8,6 +8,8 @@ public class Email1 {
 		Scanner scan = new Scanner(System.in);
 		//String email = scan.next();
 		String email = "seattle_washington@gmail.com";
+		String firstHalf = email.substring(0,email.indexOf("_"));
+		String secondHalf = 
 
 		System.out.println(email.substring(0,email.indexOf("_")))
 
