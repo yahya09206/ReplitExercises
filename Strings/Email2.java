@@ -9,7 +9,8 @@ public class Email2 {
 		//String email = scan.next();
 		String email = "seattle_washington@gmail.com";
 		String firstName = email.substring(0, email.indexOf("_"));
-
+		String lastName = email.substring(email.indexOf("_"), email.indexOf("@"));
+		
 		System.out.println(firstName.toUpperCase().charAt(0) + email.substring(1, email.indexOf("_")));
 	}
 }
