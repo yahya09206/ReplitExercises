@@ -8,7 +8,7 @@ public class WithoutXx {
 		Scanner scan = new Scanner(System.in);
 		String word = scan.next();
 
-		if (word.charAt(0).equals("x") || word.charAt(word.length() - 1).equals("X")) {
+		if (word.startsWith("x") || word.startsWith("X")) {
 			System.out.println(word.substring(word.indexOf("x"), word.indexOf("X")));
 		}else {
 			System.out.println(word);
