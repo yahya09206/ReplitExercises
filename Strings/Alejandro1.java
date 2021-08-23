@@ -10,6 +10,8 @@ public class Alejandro1 {
 
 		if (a.equalsIgnoreCase("alejandro")) {
 			System.out.println("read");
+		}else {
+			System.out.println("don't read");
 		}
 	}
 }
