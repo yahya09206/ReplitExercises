@@ -19,17 +19,14 @@ public class ShoppingList2 {
 			System.out.println("Enter Item" + count + " and its price:");
 			item = scan.next();
 			price = scan.nextDouble();
+			shoppingListReport += ("Item" + count + ": " + item + " Price: " + price + ", ");
 			totalPrice += price;
-			shoppingListReport += "Item" + count + ": " + item + " Price: " + price;
 			System.out.println("Add one more item?");
-			countinue = scan.next();
-			if (countinue.equals("yes")) {
-				shoppingListReport += ",";
-			}
+			countinue = scan.next().toLowerCase();
 			count++;
-		}while(!countinue.equalsIgnoreCase("no") && count <= 10);
+		} while(countinue.equals("yes"));
 
-		System.out.print(shoppingListReport);
+		System.out.println(shoppingListReport.substring(0, shoppingListReport.length() - 2));
 		System.out.println("Total price: " + totalPrice);
 	}
 }
