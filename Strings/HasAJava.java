@@ -7,9 +7,9 @@ public class HasAJava {
 
 		Scanner scan = new Scanner(System.in);
 		//String word = scan.next();
-		String word = "cjavaPython";
+		String word = "c#javaPython";
 
-		if (word.startsWith("java") || word.substring(1).contains("java")) {
+		if (word.startsWith("java") || word.substring(1).startsWith("java")) {
 			System.out.println("true");
 		}else {
 			System.out.println("false");
