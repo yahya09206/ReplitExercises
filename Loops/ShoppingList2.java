@@ -29,7 +29,7 @@ public class ShoppingList2 {
 			count++;
 		}while(!countinue.equalsIgnoreCase("no") && count <= 10);
 
-		System.out.print(item + " Price: " + price + ", ");
+		System.out.print(shoppingListReport);
 		System.out.println("Total price: " + totalPrice);
 	}
 }
