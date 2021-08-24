@@ -14,5 +14,9 @@ public class ShoppingList2 {
 		double price = 0;
 		int count = 1;
 		double totalPrice = 0;
+
+		do {
+			System.out.println("Enter item" + count + " and its price:");
+		}
 	}
 }
