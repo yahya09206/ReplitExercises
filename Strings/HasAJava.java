@@ -6,6 +6,7 @@ public class HasAJava {
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
-		String word = scan.next();
+		//String word = scan.next();
+		String word = "javaPython";
 	}
 }
