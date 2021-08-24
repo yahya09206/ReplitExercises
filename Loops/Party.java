@@ -15,14 +15,18 @@ public class Party {
 		String list = " ";
 		String countinue = "";
 
-		do {
-			System.out.println("Please enter guest name:");
-			String name = scan.next();
-			System.out.println("Do you want to enter new guest name:");
+		while(countinue.equalsIgnoreCase("yes")){
+			System.out.println("Do you want to enter new guest name?");
 			countinue = scan.next();
-			list += name;
-		}while(countinue.equalsIgnoreCase("yes"));
+			if (countinue.equalsIgnoreCase("yes")) {
+				System.out.println("Please enter guest name:");
+				name = scan.next();
+				list += name;
+			}else {
+				break;
+			}
+		}
 
-		System.out.println("Guest's list: " + list.substring(0, list.length() - 2));
+		System.out.println("Guest's list: " + list + ",");
 	}
 }
