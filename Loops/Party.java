@@ -12,21 +12,17 @@ public class Party {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter guest name:");
 		String name = scan.next();
-		String list = " ";
+		String list = "";
 		String countinue = "";
 
 		while(countinue.equalsIgnoreCase("yes")){
 			System.out.println("Do you want to enter new guest name?");
 			countinue = scan.next();
-			if (countinue.equalsIgnoreCase("yes")) {
-				System.out.println("Please enter guest name:");
-				name = scan.next();
-				list += name;
-			}else {
-				break;
-			}
+			System.out.println("Please enter guest name:");
+			name = scan.next();
+			list += "," + name;
 		}
 
-		System.out.println("Guest's list: " + list + ",");
+		System.out.println("Guest's list: " + list);
 	}
 }
