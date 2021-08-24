@@ -20,6 +20,9 @@ public class ShoppingList2 {
 			item = scan.next();
 			price = scan.nextDouble();
 			System.out.println("Add one more item?");
+			countinue = scan.next();
 		}while(!countinue.equalsIgnoreCase("no"));
+
+		System.out.print(item + " Price: " + price + ", ");
 	}
 }
