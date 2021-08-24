@@ -5,3 +5,10 @@ Then ask does user want to enter one more guests.
 If yes - take the next guest input
 If not - finish the program and print list of the guests.
 */
+import java.util.Scanner;
+public class Party {
+	public static void main(String[] args){
+
+		Scanner scan = new Scanner(System.in);
+	}
+}
