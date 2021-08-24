@@ -7,9 +7,9 @@ public class HasAJava {
 
 		Scanner scan = new Scanner(System.in);
 		//String word = scan.next();
-		String word = "javaPython";
+		String word = "cjavaPython";
 
-		if (word.charAt(0).startsWith("java") || word.charAt(1).startsWith("java")) {
+		if (word.startsWith("java")) {
 			System.out.println("true");
 		}else {
 			System.out.println("false");
