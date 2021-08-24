@@ -8,8 +8,8 @@ public class GetSandwich {
 		// String str = scan.next();
 		String word = "breadjambread";
 
-		if (word.startsWith("bread") && word.endsWith("bread")) {
-			System.out.println(word.substring(word.indexOf("d") + 1), word.substring(word.indexOf(word.endsWith("bread"))));
+		if (word.indexOf("bread") != word.lastIndexOf("bread")) {
+			System.out.println(word.substring(word.indexOf("bread"), word.lastIndexOf("bread")));
 		}else {
 			System.out.println("nothing");
 		}
