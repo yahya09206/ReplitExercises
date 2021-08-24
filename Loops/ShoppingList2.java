@@ -17,6 +17,9 @@ public class ShoppingList2 {
 
 		do {
 			System.out.println("Enter item" + count + " and its price:");
-		}
+			item = scan.next();
+			price = scan.nextDouble();
+			System.out.println("Add one more item?");
+		}while(!countinue.equalsIgnoreCase("no"));
 	}
 }
