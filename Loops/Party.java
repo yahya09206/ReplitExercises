@@ -13,12 +13,16 @@ public class Party {
 		System.out.println("Please enter guest name:");
 		String name = scan.next();
 		String list = " ";
+		String countinue = "";
 
 		do {
 			System.out.println("Please enter guest name:");
 			String name = scan.next();
 			System.out.println("Do you want to enter new guest name:");
+			countinue = scan.next();
 			list += name;
 		}while(countinue.equalsIgnoreCase("yes"));
+
+		System.out.println("Guest's list: " + list.substring(0, list.length() - 2));
 	}
 }
