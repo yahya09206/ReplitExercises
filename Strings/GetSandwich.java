@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class GetSandwich {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		// String str = scan.next();
-		String word = "breadjambread";
+		String str = scan.next();
 
 		if (word.indexOf("bread") != word.lastIndexOf("bread")) {
 			System.out.println(word.substring(word.indexOf("bread") + 5, word.lastIndexOf("bread")));
