@@ -6,5 +6,9 @@ public class GetSandwich {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		String str = scan.next();
+
+		if (word.startsWith("bread") && word.endsWith("bread")) {
+			
+		}
 	}
 }
