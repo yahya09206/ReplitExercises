@@ -12,5 +12,10 @@ public class Party {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter guest name:");
 		String name = scan.next();
+
+		do {
+			System.out.println("Please enter guest name:");
+			String name = scan.next();
+		}while(!(countinue.equalsIgnoreCase("no")));
 	}
 }
