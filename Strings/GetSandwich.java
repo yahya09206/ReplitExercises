@@ -8,7 +8,9 @@ public class GetSandwich {
 		String str = scan.next();
 
 		if (word.startsWith("bread") && word.endsWith("bread")) {
-			
+			System.out.println(word.substring(word.indexOf("d"), word.indexOf("b")));
+		}else {
+			System.out.println("nothing");
 		}
 	}
 }
