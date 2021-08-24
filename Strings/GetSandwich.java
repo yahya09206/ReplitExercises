@@ -9,7 +9,7 @@ public class GetSandwich {
 		String word = "breadjambread";
 
 		if (word.startsWith("bread") && word.endsWith("bread")) {
-			System.out.println(word.substring(word.indexOf("d") + 1), word.indexOf("b"));
+			System.out.println(word.substring(word.indexOf("d") + 1), word.substring(word.indexOf(word.endsWith("bread"))));
 		}else {
 			System.out.println("nothing");
 		}
