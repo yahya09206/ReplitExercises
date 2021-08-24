@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class GetSandwich {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
-		String str = scan.next();
+		// String str = scan.next();
+		String word = "breadjambread";
 
 		if (word.startsWith("bread") && word.endsWith("bread")) {
-			System.out.println(word.substring(word.indexOf("d"), word.indexOf("b")));
+			System.out.println(word.substring(word.indexOf("d") + 1), word.indexOf("b"));
 		}else {
 			System.out.println("nothing");
 		}
