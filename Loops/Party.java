@@ -12,12 +12,13 @@ public class Party {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter guest name:");
 		String name = scan.next();
+		String list = " ";
 
 		do {
 			System.out.println("Please enter guest name:");
 			String name = scan.next();
 			System.out.println("Do you want to enter new guest name:");
-
+			list += name;
 		}while(countinue.equalsIgnoreCase("yes"));
 	}
 }
