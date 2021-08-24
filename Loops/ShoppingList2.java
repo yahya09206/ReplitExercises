@@ -19,9 +19,15 @@ public class ShoppingList2 {
 			System.out.println("Enter Item" + count + " and its price:");
 			item = scan.next();
 			price = scan.nextDouble();
+			totalPrice += price;
+			shoppingListReport += "Item" + count + ": " + item + " Price: " + price;
 			System.out.println("Add one more item?");
 			countinue = scan.next();
-		}while(!countinue.equalsIgnoreCase("no"));
+			if (countinue.equals("yes")) {
+				shoppingListReport += ",";
+			}
+			count++;
+		}while(!countinue.equalsIgnoreCase("no") && count <= 10);
 
 		System.out.print(item + " Price: " + price + ", ");
 		System.out.println("Total price: " + totalPrice);
