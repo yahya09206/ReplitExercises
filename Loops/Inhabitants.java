@@ -7,7 +7,12 @@ public class Inhabitants {
 
 		Scanner scan = new Scanner(System.in);
 		int inhabitants = scan.nextInt();
+		int day = 0;
 
-		
+		if (inhabitants > 0) {
+			do {
+				System.out.println("Day " + day + " [" + inhabitants + "]");
+			}
+		}
 	}
 }
