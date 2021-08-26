@@ -10,16 +10,17 @@ public class Party {
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
-		String list = "";
+		String list = " ";
+    	String countinue = "yes";
 
-		while(true){
+		while(countinue.equalsIgnoreCase("yes")){
 				System.out.println("Please enter guest name:");
 				String name = scan.next();
 				System.out.println("Do you want to enter new guest name:");
-				String countinue = scan.next();
-        		list += name + ",";
+				countinue = scan.next();
+        		list += name + ", ";
 			if (countinue.equalsIgnoreCase("no")) {
-				System.out.println("Guest's list: " + list.substring(0, list.length() - 2));
+				System.out.println("Guest's list:" + list.substring(0, list.length() - 2));
 			}
 		}
 	}
