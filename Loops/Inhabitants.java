@@ -7,5 +7,9 @@ public class Inhabitants {
 
 		Scanner scan = new Scanner(System.in);
 		int inhabitants = scan.nextInt();
+
+		for (int i = 0; i < inhabitants; i++) {
+			
+		}
 	}
 }
