@@ -15,10 +15,9 @@ public class Inhabitants {
 				day++;
 				inhabitants /= 2;
 			}while(inhabitants > 0);
-			System.out.println("----EXTINCT----");
+			System.out.println("---- EXTINCT ----");
 		}else {
-			
+			System.out.println("---- EXTINCT ----");
 		}
-
 	}
 }
