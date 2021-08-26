@@ -12,6 +12,8 @@ public class Inhabitants {
 		if (inhabitants > 0) {
 			do {
 				System.out.println("Day " + day + " [" + inhabitants + "]");
+				day++;
+				inhabitants /= 2;
 			}
 		}
 	}
