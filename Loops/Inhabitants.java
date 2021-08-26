@@ -9,7 +9,8 @@ public class Inhabitants {
 		int inhabitants = scan.nextInt();
 
 		for (int i = 0; i < inhabitants; i++) {
-			
+			System.out.println("Day " + i + " [" + inhabitants[i] + "]");
 		}
+		System.out.println("----Extinct----");
 	}
 }
