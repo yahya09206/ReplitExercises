@@ -9,8 +9,8 @@ public class CatsAndDogs {
     	int countOfDogs = 0;
     	String word = scan.next();
 
-    	for (int i = 0; i < word.length(); i++) {
+    	for (int i = 0; i <= word.length() - 1; i++) {
     		
-    	}
+    	}	
 	}
 }
