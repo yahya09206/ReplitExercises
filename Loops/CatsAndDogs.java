@@ -8,24 +8,19 @@ public class CatsAndDogs {
 		Scanner scan = new Scanner(System.in);
 		int countOfCats = 0;
     	int countOfDogs = 0;
-    	//String word = scan.next();
-    	String word = "dogdogcaticatdogcatcat";
+    	String word = scan.next();
     	int wordcharCount = word.length();
     	int tCharCount = 3; // character count of target word we are looking for
 
     	for (int i = 0; i <= wordcharCount - tCharCount; i++) {
     		// System.out.println(word.substring(i, i + tCharCount));
     		String currentWord = word.substring(i, i + tCharCount);
-    		System.out.println(currentWord);
-
     		if(currentWord.equals("cat")){
     			countOfCats++;
     		}else if(currentWord.equals("dog")){
     			countOfDogs++;
     		}
     	}
-    	System.out.println(countOfDogs);
-    	System.out.println(countOfCats);
     	System.out.println(countOfDogs == countOfCats);
 	}
 }
