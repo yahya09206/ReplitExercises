@@ -4,6 +4,9 @@ In mathematics a factorial of a positive integer n, denoted by n!, is the produc
 import java.util.Scanner;
 public class Factorial {
 	public static void main(String[] args){
+
 		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		long result = 1L;
 	}
 }
