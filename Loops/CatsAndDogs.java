@@ -11,10 +11,14 @@ public class CatsAndDogs {
     	//String word = scan.next();
     	String word = "ilovejava";
     	int wordcharCount = word.length();
-    	int tCharCount = 5; // character count of target word we are looking for
+    	int tCharCount = 3; // character count of target word we are looking for
 
     	for (int i = 0; i <= wordcharCount - tCharCount; i++) {
-    		System.out.println(word.substring(i, i + tCharCount));
+    		// System.out.println(word.substring(i, i + tCharCount));
+    		String currentWord = word.substring(i, i + tCharCount);
+    		System.out.println(currentWord);
+
+    		
     	}	
 	}
 }
