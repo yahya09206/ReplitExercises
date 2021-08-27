@@ -8,5 +8,9 @@ public class Factorial {
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		long result = 1L;
+
+		for (int i = 1; i <= n; i++) {
+			result += n * i;
+		}
 	}
 }
