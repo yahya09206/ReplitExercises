@@ -14,9 +14,13 @@ public class EqualsJavaPython {
 		for (int i = 0; i <= sentence.length() - 1; i++) {
 			if (sentence.contains("java")) {
 				javaCount++;
-				if (sentence.contains("python")) {
+			}else if(sentence.contains("python")) {
 					pythonCount++;
 				}
+			if (javaCount == pythonCount) {
+				result = true;
+			}else {
+				result = false;
 			}
 		}
 		System.out.println(result);
