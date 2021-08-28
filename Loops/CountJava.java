@@ -17,5 +17,6 @@ public class CountJava {
 				javaCount++;
 			}
 		}
+		System.out.println(javaCount);
 	}
 }
