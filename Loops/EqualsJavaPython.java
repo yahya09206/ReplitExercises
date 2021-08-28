@@ -7,13 +7,16 @@ public class EqualsJavaPython {
 
 		Scanner scan = new Scanner(System.in);
 		String sentence = scan.nextLine();
+		int javaCount = 0;
+		int pythonCount = 0;
 		boolean result = true;
 
 		for (int i = 0; i <= sentence.length() - 1; i++) {
-			if (sentence.contains("java") && sentence.contains("python")) {
-				result = true;
-			}else {
-				result = false;
+			if (sentence.contains("java")) {
+				javaCount++;
+				if (sentence.contains("python")) {
+					pythonCount++;
+				}
 			}
 		}
 		System.out.println(result);
