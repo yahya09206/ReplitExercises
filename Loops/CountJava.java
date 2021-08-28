@@ -7,12 +7,12 @@ public class CountJava {
 
 		Scanner scan = new Scanner(System.in);
 		String word = scan.next();
-		int wordCount = word.length();
-		int wordcharCount = 4;
-		int javaCount = scan.nextInt();
+		int wordcharCount = word.length();
+		int jCharCount = 4;
+		int javaCount = 0;
 
-		for (int i = 0; i <= wordCount - wordcharCount; i++) {
-			String currentWord = word.substring(i, i + wordcharCount);
+		for (int i = 0; i <= wordcharCount - jCharCount; i++) {
+			String currentWord = word.substring(i, i + jCharCount);
 			if (currentWord.equals("java")) {
 				javaCount++;
 			}
