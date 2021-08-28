@@ -7,5 +7,7 @@ public class CountHi {
 
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
+
+		int countOfHi = 0;
 	}
 }
