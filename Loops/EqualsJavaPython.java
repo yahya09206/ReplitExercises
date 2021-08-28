@@ -11,7 +11,7 @@ public class EqualsJavaPython {
 
 		for (int i = 0; i <= sentence.length() - 1; i++) {
 			if (sentence.contains("java") && sentence.contains("python")) {
-				result = result;
+				result = true;
 			}else {
 				result = false;
 			}
