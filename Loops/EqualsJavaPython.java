@@ -20,8 +20,6 @@ public class EqualsJavaPython {
 		}
 		if (javaCount == pythonCount) {
 			result = true;
-		}else {
-			result = false;
 		}
 		System.out.println(result);
 	}
