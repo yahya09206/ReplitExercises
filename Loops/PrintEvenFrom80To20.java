@@ -6,5 +6,8 @@ public class PrintEvenFrom80To20 {
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
+		for (int i = 80; i >= 20; i--) {
+			
+		}
 	}
 }
