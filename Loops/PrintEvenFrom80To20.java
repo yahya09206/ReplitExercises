@@ -9,6 +9,9 @@ public class PrintEvenFrom80To20 {
 		for (int i = 80; i >= 20; i--) {
 			if (i % 2 == 0) {
 				System.out.print(i + " ");
+				if (i == 22) {
+					System.out.println(20);
+				}
 			}
 		}
 	}
