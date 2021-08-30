@@ -1,0 +1,3 @@
+/*
+Write a program that will create a triangle of asterisks based on size n.
+*/
