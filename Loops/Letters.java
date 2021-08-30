@@ -9,12 +9,8 @@ public class Letters {
 		char start = scan.next().charAt(0);
     	char end = scan.next().charAt(0);
 
-    	for (int i = start; i <= end; i++) {
-    		if (start.equals(start.toUpperCase(i))) {
-    			System.out.print(i);
-    		}else{
-    			System.out.print(i.toLowerCase);
-    		}
+    	for (char i = start; i <= end; i++) {
+    		System.out.print(i);
     	}
 	}
 }
