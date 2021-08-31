@@ -11,11 +11,14 @@ public class EqualsJavaPython {
 		int pythonCount = 0;
 		boolean result = true;
 
-		for (int i = 0; i <= sentence.length() - 1; i++) {
+		for (int i = 0; i <= sentence.length() - 4; i++) {
 			if (sentence.contains("java")) {
 				javaCount++;
-			}else if(sentence.contains("python")) {
-				pythonCount++;
+			}
+		}
+		for (int i = 0; i < sentence.length() - 6; i++) {
+			if(sentence.contains("python")) {
+			pythonCount++;
 			}
 		}
 		if (javaCount == pythonCount) {
