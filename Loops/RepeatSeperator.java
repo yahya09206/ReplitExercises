@@ -9,10 +9,11 @@ public class RepeatSeperator {
 		String word = scan.next();
     	String separator = scan.next();
     	int count = scan.nextInt();
-    	String result = "";
+    	String result = word;
 
-    	for (int i = 0; i <= count; i++) {
-    		System.out.print(word + separator);
+    	for (int i = 0; i <= count - 2; i++) {
+    		result += separator + word;
     	}
+    	System.out.println(result);
 	}
 }
