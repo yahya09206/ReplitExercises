@@ -9,6 +9,10 @@ public class PrintVowels {
 		String word = scan.nextLine();
 		char vowels = 'aeiou';
 
-		
+		for (int i = 0; i <= word.length() - 1; i++) {
+			if (word.charAt(i).contains(vowels)) {
+				System.out.println(word.charAt(i));
+			}
+		}
 	}
 }
