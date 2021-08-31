@@ -9,21 +9,23 @@ public class EqualsJavaPython {
 		String sentence = scan.nextLine();
 		int javaCount = 0;
 		int pythonCount = 0;
-		boolean result = true;
 
 		for (int i = 0; i <= sentence.length() - 4; i++) {
-			if (sentence.contains("java")) {
+			String java = sentence.substring(i, i + 4);
+			if (java.equals("java")) {
 				javaCount++;
 			}
 		}
 		for (int i = 0; i < sentence.length() - 6; i++) {
-			if(sentence.contains("python")) {
+			String python = sentence.substring(i, i + 6);
+			if(python.equals("python")) {
 			pythonCount++;
 			}
 		}
 		if (javaCount == pythonCount) {
-			result = true;
+			System.out.println("true");
+		}else {
+			System.out.println("false");
 		}
-		System.out.println(result);
 	}
 }
