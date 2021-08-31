@@ -1,0 +1,3 @@
+/*
+Create a program that will take the given String In and print out all the vowels from the String.
+*/
