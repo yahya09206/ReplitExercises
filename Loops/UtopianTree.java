@@ -8,5 +8,21 @@ public class UtopianTree {
 		Scanner scan = new Scanner(System.in);
 		int growth = 0;
 		int count = 1;
+
+		for (int i = 1; i <= 10; i++) {
+			if (i <= 3) {
+				count = 1;
+			}else {
+				count = 2;
+			}
+			growth += count;
+			if (i == 3) {
+				System.out.println("year " + i + " - growth " + count + " cm");
+				System.out.println("tree size: " + growth + "cm");
+			}else {
+				System.out.println("year " + i + " - growth " + count + " cm");
+				System.out.println("tree size: " + growth + "cm");
+			}
+		}
 	}
 }
