@@ -7,6 +7,7 @@ public class PrintVowels {
 
 		Scanner scan = new Scanner(System.in);
 		String word = scan.nextLine();
+		char vowels = 'aeiou';
 
 		
 	}
