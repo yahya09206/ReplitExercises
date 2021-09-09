@@ -3,7 +3,7 @@ Given 2 static methods hello() and world(). Provide an implementation for both o
 */
 public class Main {
 	public static void main(String[] args){
-
+		hello();
 	}
 	public static void hello(){
 		System.out.println("Hello");
