@@ -5,3 +5,9 @@ The method should ask the user to input two numbers, then it will add them and p
 
 Hint: Create a scanner within plus method.
 */
+import java.util.Scanner;
+public class SimpleCalculator {
+	public static void main(String[] args){
+		add();
+	}
+}
