@@ -9,7 +9,9 @@ public class SigNum {
 	public static void sign(int n){
 
 		if (n > 0) {
-			System.out.println("positive")
+			System.out.println("positive");
+		}else if (n < 0) {
+			System.out.println("negative");
 		}
 	}
 }
