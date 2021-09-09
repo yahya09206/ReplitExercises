@@ -10,6 +10,6 @@ public class Main {
 		System.out.println("Hello");
 	}
 	public static void world(){
-		System.out.println("World");
+		System.out.println("World!");
 	}
 }
