@@ -13,5 +13,8 @@ public class SimpleCalculator {
 
 	public static void add(){
 		Scanner scan = new Scanner(System.in);
+		System.out.print("Please enter two numbers");
+		int num1 = scan.nextInt();
+		int num2 = scan.nextInt();
 	}
 }
