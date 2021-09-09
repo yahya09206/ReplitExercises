@@ -10,4 +10,8 @@ public class SimpleCalculator {
 	public static void main(String[] args){
 		add();
 	}
+
+	public static void add(){
+		Scanner scan = new Scanner(System.in);
+	}
 }
