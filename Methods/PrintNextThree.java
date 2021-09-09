@@ -10,8 +10,9 @@ public class PrintNextThree {
 		next3(num);
 	}
 	public static void next3(int num){
-		num++;
-		num++;
-		num++;
+		System.out.println("next 3 are:");
+		for (int i = num; i < 3; i++) {
+			System.out.print(i + " ");
+		}
 	}
 }
