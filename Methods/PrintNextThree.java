@@ -11,8 +11,6 @@ public class PrintNextThree {
 	}
 	public static void next3(int num){
 		System.out.println("next 3 are:");
-		for (int i = num; i < 3; i++) {
-			System.out.print(i + " ");
-		}
+		System.out.println((num + 1) + " " + (num + 2) + " " + (num + 3));
 	}
 }
