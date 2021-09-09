@@ -7,10 +7,9 @@ public class PopulateArray {
 		Scanner scan = new Scanner(System.in);
 	}
 	public static int[] populate(int[] r){
-		int[] result;
 		for (int i = 0; i <= r.length; i++) {
-			result[i++] += r;
+			r[i] += i++;
 		}
-		return result;
+		return r;
 	}
 }
