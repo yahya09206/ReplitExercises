@@ -8,7 +8,7 @@ public class PopulateArray {
 	}
 	public static int[] populate(int[] r){
 		int[] result;
-		for (int i = 0; i <= r; i++) {
+		for (int i = 0; i <= r.length; i++) {
 			result[i++] += r;
 		}
 		return result;
