@@ -7,4 +7,10 @@ public class SplitPersonInfo {
 
 		person("Michael, Williams, 30");
 	}
+	public static void person(String info){
+		String[] information = info.split(",");
+		System.out.println("person name: " + information[0]);
+		System.out.println("last name: " + information[1]);
+		System.out.println("age: " + information[2]);
+	}
 }
