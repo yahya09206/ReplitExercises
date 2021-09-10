@@ -9,7 +9,10 @@ public class PrintUniqueNums {
 
 	public static void PrintUniqueNumbers(int[] nums){
 
-		int[] result = {};
-		count = 0;
+		
+		int count = 0;
+		for (int i = 0; i <= num.length; i++) {
+			
+		}
 	}
 }
