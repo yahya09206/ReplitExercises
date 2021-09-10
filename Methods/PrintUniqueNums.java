@@ -10,9 +10,11 @@ public class PrintUniqueNums {
 	public static void PrintUniqueNumbers(int[] nums){
 	
 		int count = 0;
-		for (int i = 0, j = 0; i <= nums.length; i++, j++) {
-			if (nums[i] == nums[j]) {
-				count++;
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = 0; j < nums.length; j++) {
+				if (nums[i] == nums[j]) {
+					count++;
+				}
 			}
 		}
 		if (count == 1) {
