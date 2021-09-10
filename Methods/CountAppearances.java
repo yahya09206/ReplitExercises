@@ -16,5 +16,6 @@ public class CountAppearances {
 				count++;
 			}
 		}
+		return count;
 	}
 }
