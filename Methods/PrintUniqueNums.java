@@ -11,8 +11,13 @@ public class PrintUniqueNums {
 
 		
 		int count = 0;
-		for (int i = 0; i <= num.length; i++) {
-			
+		for (int i = 0, j = 0; i <= nums.length; i++, j++) {
+			if (nums[i] == nums[j]) {
+				count++;
+			}
+		}
+		if (count == 1) {
+			System.out.println(nums[i])
 		}
 	}
 }
