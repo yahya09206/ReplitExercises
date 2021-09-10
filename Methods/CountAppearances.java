@@ -8,4 +8,7 @@ public class CountAppearances {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 	}
+	public static int countAppearance(String[] arr, String t){
+		
+	}
 }
