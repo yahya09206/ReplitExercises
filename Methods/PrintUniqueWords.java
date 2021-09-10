@@ -6,4 +6,12 @@ public class PrintUniqueWords {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 	}
+
+	public static void printUniqueWords(String[] words){
+    //WRITE YOUR CODE HERE
+    for (int i = 0; i < words.length(); i++) {
+    	int count = 0;
+    }
+    
+  }
 }
