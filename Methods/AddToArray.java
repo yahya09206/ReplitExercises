@@ -8,4 +8,7 @@ public class AddToArray {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 	}
+	public static void add_to_r(int[] r, int n){
+		
+	}
 }
