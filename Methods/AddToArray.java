@@ -9,6 +9,10 @@ public class AddToArray {
 		Scanner scan = new Scanner(System.in);
 	}
 	public static void add_to_r(int[] r, int n){
-		
+
+		int[] arr1 = new int[r.length + 1];
+		for (int i = 0; i < r.length; i++) {
+			
+		}
 	}
 }
