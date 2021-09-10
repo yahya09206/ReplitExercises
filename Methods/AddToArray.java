@@ -12,7 +12,9 @@ public class AddToArray {
 
 		int[] arr1 = new int[r.length + 1];
 		for (int i = 0; i < r.length; i++) {
-			
+			arr1[i] = r[i];
 		}
+		arr1[arr1.length - 1];
+		System.out.println(Arrays.toString(arr1));
 	}
 }
