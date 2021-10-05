@@ -11,6 +11,8 @@ public class FindSum {
 
     	for (int i = 0; i < nums.length; i++) {
     		int sum = 0;
+    		sum += nums[i];
     	}
+    	System.out.println(sum);
 	}
 }
