@@ -1,0 +1,3 @@
+/*
+find average temps in array
+*/
