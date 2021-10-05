@@ -16,5 +16,6 @@ public class FindMax {
     			max = each;
     		}
     	}
+    	System.out.println(max);
 	}
 }
