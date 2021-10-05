@@ -12,7 +12,7 @@ public class FindMax {
     	int max = nums[0];
     	for (int i = 0; i < nums.length; i++) {
     		int each = nums[i];
-    		if (each > nums[i]) {
+    		if (each > max) {
     			max = each;
     		}
     	}
