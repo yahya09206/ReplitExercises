@@ -8,5 +8,9 @@ public class FindSum {
 		
 		Scanner input = new Scanner(System.in);
     	int[] nums = {input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt()};
+
+    	for (int i = 0; i < nums.length; i++) {
+    		int sum = 0;
+    	}
 	}
 }
