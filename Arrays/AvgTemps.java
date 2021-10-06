@@ -8,8 +8,8 @@ public AvgTemps {
 		 Scanner scan = new Scanner(System.in);
 		double[] temps = { scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble() , scan.nextDouble()  };
 
-		int sum = 0;
-		for (int n : temps ) {
+		double sum = 0;
+		for (int i = 0; i < temps.length; i++) {
 			sum += n;
 		}
 		double avg = sum / temps;
