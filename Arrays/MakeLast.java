@@ -12,6 +12,6 @@ public class MakeLast {
 			nums[i] = scan.nextInt();
 		}
 
-		
+		int[] newArr = new int[nums.length * 2];
 	}
 }
