@@ -15,7 +15,8 @@ public class FrontPiece {
 		if (num.length < 2) {
 			System.out.println(Arrays.toString(num));
 		}else {
-      		int[] num2 = new int[num[0] + num[1]];
+      		int[] num2 = new int[2];
+      		
       		System.out.println(Arrays.toString(num2));
     	}
 
