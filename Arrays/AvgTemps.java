@@ -12,5 +12,7 @@ public AvgTemps {
 		for (int n : temps ) {
 			sum += n;
 		}
+		double avg = sum / temps;
+		System.out.println(avg);
 	}
 }
