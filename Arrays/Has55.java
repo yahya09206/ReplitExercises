@@ -9,8 +9,10 @@ public class Has55 {
     	int[] nums = {input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt()};
 
     	for (int i = 0; i < nums.length; i++) {
-    		if () {
-    			
+    		if (nums[i] == 5 && nums[i+1] == 5) {
+    			System.out.println("true");
+    		}else {
+    			false;
     		}
     	}
 	}
