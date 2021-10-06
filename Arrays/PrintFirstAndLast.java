@@ -3,3 +3,9 @@ Given a String array words, iterate through each word and print first and last l
 */
 import java.util.Arrays;
 import java.util.Scanner;
+
+public class PrintFirstAndLast {
+	public static void main(String[] args) {
+		
+	}
+}
