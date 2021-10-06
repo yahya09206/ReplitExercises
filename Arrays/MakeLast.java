@@ -13,5 +13,7 @@ public class MakeLast {
 		}
 
 		int[] newArr = new int[nums.length * 2];
+		newNums[newNums.length - 1] = nums[nums.length - 1];
+		System.out.println(Arrays.toString(newNums));
 	}
 }
