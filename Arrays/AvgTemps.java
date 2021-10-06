@@ -9,6 +9,8 @@ public AvgTemps {
 		double[] temps = { scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble() , scan.nextDouble()  };
 
 		int sum = 0;
-		
+		for (int n : temps ) {
+			sum += n;
+		}
 	}
 }
