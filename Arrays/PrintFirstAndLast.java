@@ -11,7 +11,7 @@ public class PrintFirstAndLast {
     	String[] words = {input.nextLine(),input.nextLine(),input.nextLine(),input.nextLine(),input.nextLine()};
 
     	// iterate through values
-    	for (int i = 0; i < words.length - 1; i++) {
+    	for (int i = 0; i < words.length; i++) {
     		String eachWord = words[i];
             System.out.println("" + eachWord.charAt(0)+eachWord.charAt(eachWord.length()-1));
     	}
