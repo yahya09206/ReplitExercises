@@ -10,9 +10,9 @@ public AvgTemps {
 
 		double sum = 0;
 		for (int i = 0; i < temps.length; i++) {
-			sum += n;
+			sum += temps[i];
 		}
-		double avg = sum / temps;
-		System.out.println(avg);
+		
+		System.out.println(sum / temps.length);
 	}
 }
