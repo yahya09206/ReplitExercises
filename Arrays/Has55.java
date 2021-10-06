@@ -12,7 +12,7 @@ public class Has55 {
     		if (nums[i] == 5 && nums[i+1] == 5) {
     			System.out.println("true");
     		}else {
-    			false;
+    			System.out.println("false");
     		}
     	}
 	}
