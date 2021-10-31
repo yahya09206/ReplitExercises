@@ -6,4 +6,8 @@ public class ReverseString{
 		Scanner in = new Scanner(System.in);
 		System.out.println(reverse(in.next()));
 	}
+
+	public static reverseString(){
+		
+	}
 }
