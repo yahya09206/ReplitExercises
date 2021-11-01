@@ -8,6 +8,6 @@ public class ReverseString{
 	}
 
 	public static reverseString(){
-		
+		String result = "";
 	}
 }
