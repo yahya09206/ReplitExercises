@@ -10,7 +10,7 @@ public class ReverseString{
 	public static reverseString(){
 		String result = "";
 		for (int i = in.length() - 1; i > 0; i--) {
-			
+			result += i;
 		}
 	}
 }
